@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.bg-light {
+  background-color: #fff !important;
+}
+
 .navbar-light .navbar-nav .active > .nav-link {
   color: #007bff;
 }
@@ -10,6 +14,11 @@
 .navbar-light .navbar-nav .nav-link {
   color: #007bff;
 }
+
+.list-group-flush > .list-group-item {
+  color: grey;
+}
+
 /* .navbar {
   top: 0;
   display: flex;
