@@ -15,4 +15,16 @@ See README.md if you need help running your code.
 
 for (let i = 1; i <= 30; i++) {
   // CODE HERE
+  newArray = [];
+  if (i % 3 === 0 && i % 5 === 0) {
+    newArray.push('Hong Kong');
+  } else if (i % 3 === 0) {
+    newArray.push('Hong');
+  } else if (i % 5 === 0) {
+    newArray.push('Kong');
+  } else {
+    newArray.push(i);
+  }
+  console.log(newArray);
 }
+
