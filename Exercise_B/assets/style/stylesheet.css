@@ -2,16 +2,34 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+.jumbotron {
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
-    height: 100vh;
+    height: 50vh;
+    margin-bottom: 0px;
+}
+
+.jumbotron-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+.containter {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0px;
+}
+*/
+
+.display-4 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .heading, #learn-more {
@@ -25,11 +43,13 @@ body {
     border-radius: 100px;
     font-size: 3vh;
     font-weight: 800;
-    margin-top: 5vh;
 }
 
 .icons {
     background-color: #CEE7B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon {

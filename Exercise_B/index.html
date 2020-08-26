@@ -7,6 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Google Font - Lato -->
     <link
@@ -19,16 +20,43 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="">
+      </a>
+    </nav>
     <!--Banner Jumbotron of the image-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Beautiful Flowers</h1>
+        <a id="learn-more" href="#" role="button">Learn more</a>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
+    <div class="row icons">
     <!-- 4 containers -->
 
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img class="icon" src="./assets/images/flower-icon.png">
+      <p class="icon-text">Flowers for every kind of situation</p>
+    </div>
     <!-- Payments Div -->
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img class="icon"  src="./assets/images/payment-icon.png">
+      <p class="icon-text">All major payments kinds accepted</p>
+    </div>
     <!-- Consultation Div -->
-
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img class="icon"  src="./assets/images/phone-icon.png">
+      <p class="icon-text">Free Consultation</p>
+    </div>
     <!-- Delivery Div -->
-
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img class="icon" src="./assets/images/truck-icon.png">
+      <p class="icon-text">City wide delivery</p>
+    </div>
+  </div>
     <!--Scripts required for bootstrap CDN-->
   </body>
 </html>

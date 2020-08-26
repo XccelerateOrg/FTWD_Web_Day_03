@@ -14,7 +14,15 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if (number < 0 || number == 0 || isNaN(number)){
+    return "Error";
+  } else if (number > 1000000 || number == 1000000) {
+    return number;
+  }
 }
+  while (number < 1000000){
+    number *= 10;
+    number++;
+  }
 
 console.log(multiplyNumber(10));
