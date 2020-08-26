@@ -3,14 +3,15 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 0px;
 }
 
@@ -30,28 +31,48 @@ body {
 
 .icons {
     background-color: #CEE7B5;
+    display: flex;
+    justify-content: space-around;
 }
 
 .icon {
-    min-width:50px;
+    width:150px;
 }
 
 .icon-text {
     display: flex;
     align-items: center;
     height: 15vh;
-}
-
-.icon-text > p {
     font-size: 3vh;
 }
 
-.icon-block {
+/* .icon-text > p {
+    font-size: 3vh;
+} */
+
+/* .icon-block {
     margin-top: 10vh;
+} */
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    
 }
+.sm-feature {
+    display: flex;
+    align-items: center;
+}
+
+
 
 @media(min-width:400px) {
     .icons{
         padding: 50px;
+    }
+}
+@media(max-width:400px){
+    .sm-feature {
+        margin: 15px;
     }
 }
