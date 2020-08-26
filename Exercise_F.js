@@ -9,7 +9,12 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  let count = 0;
+  for (var i=0; i<string.length; i++) {
+    if (string[i] === targetChar){
+      count += 1;
+    }
+  }
+  return count
 }
-
 console.log(occurrence("baa", "a"));

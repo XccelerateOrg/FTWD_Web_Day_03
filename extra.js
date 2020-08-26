@@ -10,11 +10,21 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  if (a, b > 0) {
+  switch (operator) {
+    case "+":
+      return a+b;
+    case "-":
+      return a-b;
+    case "x":
+      return a*b;
+    case "/":
+      return a/b;
+    
+    }
   }
+    
+ 
 }
 
-console.log(calculator("+", 1, 2));
+console.log(calculator("+", 3, 3));

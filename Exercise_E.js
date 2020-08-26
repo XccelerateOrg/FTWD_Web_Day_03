@@ -33,8 +33,18 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
+function maya(number) { 
+  if (number>100 && number<99999) {
+    let string =[]
+    let strnum = number.toString();
+   
+      for (let i = 0; i< strnum.length; i++) {
+        string.push(KEYS[strnum[i]]);
+        }
+        output = string.join('');
+      return output
+      
+  }
+  
 }
-
 console.log(maya(423));
