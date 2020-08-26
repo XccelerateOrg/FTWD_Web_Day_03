@@ -1,57 +1,85 @@
+* {
+  margin: 0px;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color:#444444;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
+  background: url("../images/flowershop.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #444444;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
 }
 
-.heading, #learn-more {
-    text-align: center;
-    color:#FFFFFF;
+.in_banner {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading,
+#learn-more {
+  text-align: center;
+  color: #ffffff;
 }
 
 #learn-more {
-    background-color: #7ED321;
-    padding: 7px 15px 7px 15px;
-    border-radius: 100px;
-    font-size: 3vh;
-    font-weight: 800;
-    margin-top: 5vh;
+  background-color: #7ed321;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  border-radius: 100px;
+  font-size: 3vh;
+  font-weight: 800;
+  margin-top: 5vh;
 }
 
 .icons {
-    background-color: #CEE7B5;
+  background-color: #cee7b5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .icon {
-    min-width:50px;
+  display: flex;
+  flex: 0 0 25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-text {
-    display: flex;
-    align-items: center;
-    height: 15vh;
+  display: flex;
+  height: 15vh;
+  min-width: 40px;
+  margin: 40px 0px 0px 10px;
 }
 
 .icon-text > p {
-    font-size: 3vh;
+  font-size: 3vh;
+  text-align: center;
 }
 
 .icon-block {
-    margin-top: 10vh;
+  margin-top: 10vh;
 }
 
-@media(min-width:400px) {
-    .icons{
-        padding: 50px;
-    }
+@media (min-width: 400px) {
+  .icons {
+    padding: 50px;
+  }
 }

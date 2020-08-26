@@ -86,6 +86,7 @@ Place this link tag as well as the scripts in the correct places within your ind
       crossorigin="anonymous"
     ></script>
 
+
 ```
 
 - [ ] Exercise B: Flowershop III, using the bootstrap column system

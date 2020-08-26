@@ -15,4 +15,15 @@ See README.md if you need help running your code.
 
 for (let i = 1; i <= 30; i++) {
   // CODE HERE
+  hk = [];
+  if (i % 3 === 0 && i % 5 === 0) {
+    hk.push("Hong Kong");
+  } else if (i % 3 === 0) {
+    hk.push("Hong");
+  } else if (i % 3 === 0) {
+    hk.push("Kong");
+  } else {
+    hk.push(i);
+  }
+  return hk;
 }
