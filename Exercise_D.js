@@ -16,7 +16,7 @@ Use a combination of conditionals and loops to create your answer for this quest
 function multiplyNumber(number) {
   if (isNaN(number)) {
     return 'Error'
-  } else if (number < 0) {
+  } else if (number <= 0) {
     return 0;
   } else if (number >= 1000000) {
     return number
@@ -28,6 +28,7 @@ function multiplyNumber(number) {
   }
 }
 
+console.log(multiplyNumber(0));
 console.log(multiplyNumber(10));
 console.log(multiplyNumber('Hello'));
 console.log(multiplyNumber(66));
