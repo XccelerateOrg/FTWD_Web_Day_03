@@ -21,8 +21,14 @@ function multiplyNumber(number) {
   } else if (number >= 1000000) {
     return number
   } else {
-    return number * 10
+    while(number < 1000000) {
+      number *= 10
+    }
+    return number
   }
 }
 
 console.log(multiplyNumber(10));
+console.log(multiplyNumber('Hello'));
+console.log(multiplyNumber(66));
+console.log(multiplyNumber(666));
