@@ -18,7 +18,11 @@ return a string with the word.
 The input is always a number, contains only the numbers in the key. 
 The output should be always a string with one word, all lowercase.
 
-Maya won’t forget to thank you at the end of her article :)*/
+Maya won’t forget to thank you at the end of her article :)
+
+INCOMPLETE
+
+*/
 
 var KEYS = {
   "6": "a",
@@ -33,8 +37,47 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
+
+function maya (number) {
+  if (number <= 99) {
+    return "Invaid Number!";
+  }
+  else if (number >= 1000000) {
+    return "Invaid Number!";
+  }
+  else {
+    var x = '' + number;
+    var mayaNum = x.split('');
+    for (const property in KEYS) {
+      return mayaNum:$(property)
+    }
+  }
 }
 
+
 console.log(maya(423));
+
+/* * Ran out of time whilst try to figure out how to use MAP function or "for...in" statement, still don't really know how to use either.
+
+
+
+  Turn the number into an array with each seperate number as an array element.
+ * Relate each individual number to a key in the KEYS object and output the value assigned to it
+  * Pull each element out of array mayaNum
+  * Pull out the corresponding value from KEYS
+  * Push that back into an array called Y
+  * Turn Y into a string
+ * Output Y  
+ 
+ * 
+ * 
+
+
+
+ 
+
+
+
+
+
+

@@ -3,12 +3,13 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
     height: 100vh;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
@@ -17,6 +18,12 @@ body {
 .heading, #learn-more {
     text-align: center;
     color:#FFFFFF;
+}
+
+#b_flowers {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 #learn-more {
