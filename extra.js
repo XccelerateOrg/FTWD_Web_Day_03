@@ -10,10 +10,19 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  switch (operator) {
+    case '+':
+      return a + b;
+      break;
+    case '-':
+      return a - b;
+      break;
+    case '*':
+      return a * b;
+      break;
+    case '/':
+      return a / b;
+      break;
   }
 }
 

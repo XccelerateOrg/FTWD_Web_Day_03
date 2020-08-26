@@ -35,6 +35,12 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  let numArr = number.toString().split('');
+  let convertedArr = [];
+  for (let i = 0; i < numArr.length; i++) {
+    convertedArr.push(KEYS[numArr[i]]);
+  }
+  return convertedArr.join('');
 }
 
 console.log(maya(423));
