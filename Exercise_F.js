@@ -8,8 +8,14 @@
  * The function will count the number of times that character appears in the string.
  * The count is case insensitive. */
 
-function occurrence(string, targetChar) {
-  // CODE HERE
+function occurrence(string, targetChar){
+  let charCount = [];
+  for(var i=0; i<string.length; i++){
+    if(string[i] === targetChar){
+      charCount.push(string[i])
+    }
+  }
+  return charCount.length
 }
 
 console.log(occurrence("baa", "a"));

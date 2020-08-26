@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
@@ -12,6 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
 }
 
 .heading, #learn-more {
@@ -26,6 +28,7 @@ body {
     font-size: 3vh;
     font-weight: 800;
     margin-top: 5vh;
+    border-color: #7ED321;
 }
 
 .icons {
@@ -40,6 +43,15 @@ body {
     display: flex;
     align-items: center;
     height: 15vh;
+    text-align: center;
+    padding-left: 3vw;
+}
+
+.col-md-6{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10vh;
+    padding-left: 4vw;
 }
 
 .icon-text > p {
@@ -49,6 +61,7 @@ body {
 .icon-block {
     margin-top: 10vh;
 }
+
 
 @media(min-width:400px) {
     .icons{

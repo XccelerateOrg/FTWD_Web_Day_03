@@ -14,7 +14,20 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if(number<=0 || isNaN(number)){
+    return "ERROR"
+  }
+  else if(number>=1000000){
+    return number
+  }
+  else{
+    do{
+      number = number * 10;
+    } while( number < 1000000);
+    return number
+  }
+
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber("skjfdhdksfj"));
+
