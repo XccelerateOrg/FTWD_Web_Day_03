@@ -10,11 +10,32 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  switch (operator) {
+    case "+":
+      let addition = a + b;
+      return Math.sign(addition) > 0 ? addition : "Negative!!"
+    case "-":
+      let subtraction = a - b;
+      return Math.sign(subtraction) > 0 ? subtraction : "Negative!!"
+    case "/":
+      let division = a / b;
+      return Math.sign(division) > 0 ? division : "Negative!!"
+    case "*":
+      let multiplication = a * b;
+      return Math.sign(multiplication) > 0 ? multiplication : "Negative!!"
+    default:
+      return "Error"
   }
 }
 
-console.log(calculator("+", 1, 2));
+console.log(calculator("+", 2, 2)); // 4
+console.log(calculator("-", 5, 2)); // 3
+console.log(calculator("*", 2, 2)); // 4
+console.log(calculator("/", 6, 3)); // 2
+
+console.log(calculator("+", -2, 2)); // Negative
+console.log(calculator("-", -5, 10)); // Negative
+console.log(calculator("*", -2, 2)); // Negative
+console.log(calculator("/", -6, 3)); // Negative
+
+console.log(calculator("-", -5, -10)); // 5
