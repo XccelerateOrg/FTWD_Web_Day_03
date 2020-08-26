@@ -32,9 +32,24 @@ var KEYS = {
   "0": "o",
   "5": "t",
 };
+let text = '';
 
 function maya(number) {
   // CODE HERE
+  if (isNaN(number)) return false;
+  let numberStr = "" + number;
+
+  // let numberString = "" + number;
+  // let string = "";
+  let string = "";
+  for (let i = 0; i < numberStr.length; i++) {
+      if (KEYS[numberStr[i]] === undefined) return false;
+      string += KEYS[numberStr[i]];
+  }
+  // return string;
+
+  return string;
 }
+
 
 console.log(maya(423));
