@@ -7,28 +7,57 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+    <link rel="stylesheet" href="assets/style/stylesheet.css" />
   </head>
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png" alt="flowerShop-logo">
+      </a>
+    </nav>
     <!--Banner Jumbotron of the image-->
-
+    <div class="banner">
+      <div class="heading jumbotron bg-transparent text-light">
+        <h1 class="display-4">Beautiful Flowers</h1>
+        <a class="btn btn-link" href="#" role="button" id="learn-more">Learn more</a>
+      </div>
+    </div>
     <!--Four containers with img / text-->
-    <!-- 4 containers -->
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
+      <!-- 4 containers -->
+    <div class="icons row">
+      <div class='icon-text col-sm-12 col-md-6 col-lg'>
+        <img src='assets/images/flower-icon.png'>
+        <p>Flowers for every kind of situation</p>
+      </div>
+      <!-- Payments Div -->
+      <div class='icon-text col-sm-12 col-md-6 col-lg'>
+        <img src='assets/images/payment-icon.png'>
+        <p>All major payment types accepted</p>
+      </div>
+      <!-- Consultation Div -->
+      <div class='icon-text col-sm-12 col-md-6 col-lg'>
+        <img src='assets/images/phone-icon.png'>
+        <p>Free consultation</p>
+      </div>
+      <!-- Delivery Div -->
+      <div class='icon-text col-sm-12 col-md-6 col-lg'>
+        <img src='assets/images/truck-icon.png'>
+        <p>City Wide delivery</p>
+      </div>
+    </div>
     <!--Scripts required for bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

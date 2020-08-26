@@ -35,6 +35,21 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  if (isNaN(number)) {
+    return `Invalid Number!`;
+  } else {
+    // 1) change the number into string, and divide it into digits (in the form of array).
+    let numberDigit = number.toString().split("");
+
+    // 2) Convert each number in the array into the corresponding letter, add the letters into a new array.
+    let decrypted = [];
+    for (let digit of numberDigit) {
+      let digitToLetter = KEYS[`${digit}`];
+      decrypted.push(digitToLetter);
+    }
+    // 3) Combine the letters.
+    return decrypted.reduce((a, b) => a + b);
+  }
 }
 
 console.log(maya(423));
