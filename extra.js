@@ -10,10 +10,23 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  if ((a, b > 0)) {
+    switch (operator) {
+      case "+":
+        return a + b;
+        break;
+      case "-":
+        return a - b;
+        break;
+      case "*":
+        return a * b;
+        break;
+      case "/":
+        return a / b;
+        break;
+    }
+  } else {
+    return "ERROR";
   }
 }
 
