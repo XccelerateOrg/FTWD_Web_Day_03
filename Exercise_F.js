@@ -9,7 +9,11 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
-}
+  count = 0;
+  for (var letters in string) {
+    if (targetChar.localeCompare(string[letters]) >= 0) {count++};
+  };
+  return count
+};
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("baa", "A"));
