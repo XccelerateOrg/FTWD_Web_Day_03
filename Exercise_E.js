@@ -12,7 +12,8 @@
 Luckily, Maya has the key:
 “a” - 6 “b” - 1 “d” - 7 “e” - 4 “i” - 3 “l” - 2 “m” - 9 “n” - 8 “o” - 0 “t” - 5
 
-You can help Maya by writing a function that will take a number between 100 and 999999 and 
+You can help Maya by writing a function that will take a number 
+between 100 and 999999 and 
 return a string with the word.
 
 The input is always a number, contains only the numbers in the key. 
@@ -34,7 +35,23 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
-}
-
+  if (number < 100 || number > 999999){
+    return "Invalid Number!"
+  } else {
+    
+    // convert parameter input from number to string
+    var numberToString = number.toString();
+    var word = "";
+    
+    // for .. in statement
+    for (var entry of numberToString){
+      // access object value (object.key) via number
+      word += KEYS[entry] ;
+    }
+    return word;
+    }
+    
+  }
+ 
 console.log(maya(423));
+
