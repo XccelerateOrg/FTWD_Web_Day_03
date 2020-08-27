@@ -21,27 +21,47 @@ The output should be always a string with one word, all lowercase.
 Maya won’t forget to thank you at the end of her article :)*/
 
 // Need revision
-function maya(number) {
-    var KEYS = {
-        "6": "a",
-        "1": "b",
-        "7": "d",
-        "4": "e",
-        "3": "i",
-        "2": "l",
-        "9": "m",
-        "8": "n",
-        "0": "o",
-        "5": "t",
-    };
-    let result = [];
-    if (number <= 999999 && number >= 100) {
-        for (property in KEYS) {
-            result.push(KEYS[property]);
-        }
-    } else { return false }
+// 
+//1. function taking in number between 100 / 999999
+//2. stringify the number
+// split number into single digit and store it into a var, using split method which would return an array
+// A:
+// loop through the keys of KEYS. 
+// During the loop in KEYS, we compare keys with number input;
+//   
+// push value of that key to an array result
 
-    result = result.join('');
+// B.
+// use number input as keys and return the value 
+
+var KEYS = {
+    "6": "a",
+    "1": "b",
+    "7": "d",
+    "4": "e",
+    "3": "i",
+    "2": "l",
+    "9": "m",
+    "8": "n",
+    "0": "o",
+    "5": "t",
+};
+
+function maya(number) {
+    let result = '';
+    let num = number.toString().split('');
+    let result = '';
+    for (let i = 0; i < num.length; i++) {
+        for (const key in KEYS) {
+            (key === num[i]) ?
+            result += KEYS[key]:
+                result = result;
+        }
+
+    }
+
+    return result;
+
 }
 
 console.log(maya(423));

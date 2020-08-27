@@ -10,11 +10,28 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
-  }
+    let result = '';
+    switch (
+        operator
+    ) {
+        case "+":
+            result = a + b;
+            break;
+        case "-":
+            result = a - b;;
+            break;
+        case "/":
+            result = a / b;;
+            break;
+        case "*":
+            result = a * b;;
+            break;
+
+    }
+    return result;
 }
 
 console.log(calculator("+", 1, 2));
+console.log(calculator("-", 1, 2));
+console.log(calculator("*", 1, 2));
+console.log(calculator("/", 1, 2));
