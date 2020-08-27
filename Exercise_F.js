@@ -10,6 +10,16 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  let newArray = string.replace(/\s+/g, "").split("");
+  console.log(newArray);
+  let trueArray = [];
+  for (i = 0; i < newArray.length; i++) {
+    if (newArray[i] === targetChar) {
+      trueArray.push(newArray[i]);
+    }
+  }
+
+  return trueArray.length;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("aaba", "a"));

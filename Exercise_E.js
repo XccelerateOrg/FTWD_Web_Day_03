@@ -34,7 +34,11 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  // CODE HERE//
+  let newArray = number.toString(10).split("");
+  console.log(newArray);
+  const trueArray = newArray.map((i) => KEYS[newArray[newArray.indexOf(i)]]);
+  console.log(trueArray);
 }
 
 console.log(maya(423));
