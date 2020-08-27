@@ -14,7 +14,23 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if ( isNaN(number) || number == 0 || number < 0) {
+    return "ERROR";
+  }
+  else if (number == 1000000 || number > 1000000) {
+    return number;
+  }
+
+  let howmanyTimes = 0;
+  // number *= 10;  = number = number * 10; //
+  while (number < 1000000) {
+    number = number * 10;
+    howmanyTimes++;
+  }
+
+console.log(number, howmanyTimes);
+return number;
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(500));
+

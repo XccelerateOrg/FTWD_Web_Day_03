@@ -9,7 +9,14 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  var count = 0;
+  var lowerCaseTargetChar = targetChar.toLowerCase();
+  for (var char of string.toLowerCase()) {
+    if (char == lowerCaseTargetChar) {
+      count++;
+    }
+  }
+  return count;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("bajjksjksjsjksjsksaaaa", "a"));
