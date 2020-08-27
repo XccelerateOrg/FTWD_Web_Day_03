@@ -34,7 +34,22 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number >= 100 && number <= 999999) {
+    let arrNum = Array.from(String(number), Number);
+    let hiddenword = [];
+    for (let i = 0; i <= arrNum.length; i++) {
+      for (let val in KEYS) {
+        if (arrNum[i] == val) {
+          hiddenword.push(KEYS[val]);
+        }
+      }
+    }
+    let str = hiddenword.toString()
+    return str;
+  } else {
+    return "Invalid Number!"
+  }
 }
 
 console.log(maya(423));
+console.log(maya(617));

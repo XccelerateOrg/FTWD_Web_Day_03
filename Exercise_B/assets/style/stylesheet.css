@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
@@ -53,5 +53,8 @@ body {
 @media(min-width:400px) {
     .icons{
         padding: 50px;
+    }
+    .icon-text {
+    text-align: center;
     }
 }
