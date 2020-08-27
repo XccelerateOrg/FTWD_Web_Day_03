@@ -1,34 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Flower Shop BS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+</head>
 
-  <body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .jumbotron {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets_exB/images/flowershop.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        border-radius: 0px !important;
+    }
+    
+    .intro h1 {
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+    
+    #myBtn {
+        background-color: greenyellow;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 16px;
+    }
+    
+    body {
+        background-color: #CFE7B5;
+    }
+</style>
+
+
+
+<body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img src="./assets_ExB/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+    </nav>
     <!--Banner Jumbotron of the image-->
-
+    <div class="jumbotron text-center my-auto d-flex justify-content-center align-items-end ">
+        <div class="intro">
+            <h1>Beautiful flowers</h1>
+            <button type="button" class="btn" id="myBtn">Learn more</button>
+        </div>
+    </div>
     <!--Four containers with img / text-->
     <!-- 4 containers -->
-
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
+    <section class="service">
+        <div class="container">
+            <div class="row my-5 py-5 justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"><img id="item-1" src="./assets_exB/images/flower-icon.png" alt="flower-icon">
+                    <p id="p1">Flowers for every kind of situation</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"><img id="item-2" src="assets_exB/images/payment-icon.png" alt="payment-icon">
+                    <p id="p2">All major payments kinds accepted</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"><img id="item-3" src="assets_exB/images/phone-icon.png" alt="phone-icon">
+                    <p>Free consultation</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"><img id="item-4" src="assets_exB/images/truck-icon.png" alt="truck-icon">
+                    <p id="p4">City wide delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Scripts required for bootstrap CDN-->
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
 </html>

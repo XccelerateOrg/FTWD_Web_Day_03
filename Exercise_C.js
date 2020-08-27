@@ -14,5 +14,7 @@ See README.md if you need help running your code.
 */
 
 for (let i = 1; i <= 30; i++) {
-  // CODE HERE
+    (i % 3 === 0 && i % 5 === 0) ? console.log(`${i} Hong Kong`):
+        (i % 3 === 0) ? console.log(` ${i} Hong`) :
+        (i % 5 === 0) ? console.log(`${i} Kong`) : console.log('false');
 }

@@ -11,10 +11,20 @@
  * Otherwise it should multiply the number by 10 however many times it takes 
  * to get a number that is greater than or equal to 1000000 and return that number. 
  * Consider which loop you will need to use to do this.
-Use a combination of conditionals and loops to create your answer for this question. */
+Use a combination of conditionals and loops to create  your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+    if (number <= 0 || number === 0 || number === NaN) {
+        return "ERROR";
+    } else if (number >= 1000000) {
+        return number;
+    } else {
+        while (number < 1000000) {
+            number = number * 10;
+        }
+        return number;
+    }
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(101)); // 101000
+console.log(multiplyNumber(99)); // 990000
