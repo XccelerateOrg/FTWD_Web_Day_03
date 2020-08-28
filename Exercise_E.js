@@ -33,8 +33,44 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
+/*
+1. function takes a number
+2. split numbers to separate newArray
+3. loop newArray to match values in KEYS
+4. concat new value to result then return result
+*/
+
+function maya(num) {
+  if (num >= 100 && num <= 999999) {
+    let arr = Array.from(String(num), Number);
+    let newArr = [];
+    for (let i = 0; i <= arr.length; i++) {
+      for (let value in KEYS) {
+        if (arr[i] == value) {
+          newArr.push(KEYS[value]);}
+      }}
+    let result = newArr.toString()
+    return result;
+  } else {
+    return "Input must be within 100 - 999,999!"
+  }
 }
 
-console.log(maya(423));
+// function maya(num) {
+//   var result = "";
+//       for (var i = 0; i < num.length; i++) {
+//         var digits = num.split("");
+//         for (var ii = 0; isFound == false; ii++) {
+//           if (digits[i] == KEYS[ii].key) {
+//             result = str.concat(result, KEYS[ii].value);
+//             isFound = true;
+//           } else {
+//             isFound = false;
+//           }
+//           return result;
+//         }
+//         return result;
+//         }
+// }
+
+// console.log(maya(423));

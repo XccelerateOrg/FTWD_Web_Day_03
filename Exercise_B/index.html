@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Flower Shop BS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
@@ -17,18 +18,66 @@
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
   </head>
 
+  
   <body>
     <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" width="120" height="40" alt="">
+      </a>
+    </nav>
 
+    <!--Banner Jumbotron of the image-->
+    <div class="banner">
+      <div class="heading jumbotron bg-transparent text-light">
+        <h1 class="display-4">Beautiful Flowers</h1>
+        <button type="button" class="btn btn-success" id="learn-more">Learn more</button>
+      </div>
+    </div>
+    
+    
     <!--Four containers with img / text-->
     <!-- 4 containers -->
+    <section class = 'icons'>
+      <div class = 'icon'>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./assets/images/flower-icon.png" alt="flower">
+              <p>Flowers of every kind of situation</p>
+            </div>
+        
+        
+
 
     <!-- Payments Div -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./assets/images/payment-icon.png" alt="payment">
+              <p>All major payments kinds accepted </p>
+            </div>
+      
+    
+
     <!-- Consultation Div -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./assets/images/phone-icon.png" alt="phone">
+              <p>Free consulation</p>
+            </div>
 
     <!-- Delivery Div -->
-
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./assets/images/truck-icon.png" alt="truck">
+              <p>City wide delivery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+    
+    
     <!--Scripts required for bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -13,6 +13,15 @@ If the number is divisible by 3 and 5 it should log Hong Kong.
 See README.md if you need help running your code.
 */
 
-for (let i = 1; i <= 30; i++) {
-  // CODE HERE
-}
+function hongkong(num) {
+  for (let i = 1; i <= num; i++) {
+    let result = num;
+    if (i % 3 == 0 && i % 5 !== 0) {result = "Hong"
+    } else if (i % 5 == 0 && i % 3 !== 0) {result = "Kong"
+    } else if (i % 5 == 0 && i % 3 == 0) {result = "Hong Kong"
+    } else {result = i;
+    }
+  console.log(result);
+  };
+};
+hongkong(30);

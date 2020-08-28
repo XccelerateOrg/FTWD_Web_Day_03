@@ -13,8 +13,17 @@
  * Consider which loop you will need to use to do this.
 Use a combination of conditionals and loops to create your answer for this question. */
 
-function multiplyNumber(number) {
-  // CODE HERE
+function multiplyNumber(num) {
+  if (num <= 0 || isNaN(num) === true) {num = "ERROR";
+  return num;
+  } else {if (num < 1000000) { 
+      for (let i = 1; num < 1000000; i++) {
+        num = num * 10;}
+      return num;}  
+  }
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(-9));
+console.log(multiplyNumber("hi"));
+console.log(multiplyNumber(0));
+console.log(multiplyNumber(2));
