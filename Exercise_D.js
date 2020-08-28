@@ -13,8 +13,27 @@
  * Consider which loop you will need to use to do this.
 Use a combination of conditionals and loops to create your answer for this question. */
 
+// function multiplyNumber(number) {
+//   // CODE HERE
+// }
+
+// console.log(multiplyNumber(10));
+
+
 function multiplyNumber(number) {
-  // CODE HERE
+  if (isNaN(number) || number <= 0) {
+    return "ERROR";
+  }
+
+  if (number >= 1000000) {
+    return number;
+  }
+
+  while (number < 1000000) {
+    number *= 10;
+  }
+
+  return number;
 }
 
 console.log(multiplyNumber(10));

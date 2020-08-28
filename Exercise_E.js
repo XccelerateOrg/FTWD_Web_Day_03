@@ -33,8 +33,17 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
+function maya(number) {                     // takes number as input
+    if (number < 100 || number > 999999){   // accepts number between 100 and 999999
+      throw new Error("Invalid Number");    // throws ERROR message for invalid numbers
+  }
+    var numberString = number.toString();
+    var result = ""
+
+    for (var numberWord of numberString) {
+      result += KEYS[numberWord];
+    }
+    return result;
 }
 
-console.log(maya(423));
+console.log(maya(432));
