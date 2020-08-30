@@ -8,6 +8,7 @@
  * about to send the article to the editor. The article is not complete without this word. 
  * Maya has a friend, Dan, and he is very good with words, but he doesn’t like to just give them away. 
  * He texts Maya a number and she needs to find out the hidden word. 
+ * 
  * The words can contain only the letter: “a”, “b”, “d”, “e”, “i”, “l”, “m”, “n”, “o”, and “t”.
 Luckily, Maya has the key:
 “a” - 6 “b” - 1 “d” - 7 “e” - 4 “i” - 3 “l” - 2 “m” - 9 “n” - 8 “o” - 0 “t” - 5
@@ -32,9 +33,17 @@ var KEYS = {
   "0": "o",
   "5": "t",
 };
-
-function maya(number) {
-  // CODE HERE
-}
-
-console.log(maya(423));
+  function article(number) {
+    if (number < 100 || number > 999999) 
+    {
+      throw new Error("Error !");
+    }
+    var numberString = number.toString();  /*Save and return without KEYS */
+    var result = ""; 
+    for (var numberChar of numberString) 
+    {
+      result = result + KEYS[numberChar];
+    }
+    return result;
+  }
+console.log(article(423));

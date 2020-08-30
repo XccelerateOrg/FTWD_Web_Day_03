@@ -10,6 +10,14 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  var count = 0; /*count number*/
+  var CaseTargetChar = targetChar.toLowerCase(); 
+  for (var char of string.toLowerCase()) {
+    if (char == CaseTargetChar) {
+      count++;
+    }
+  }
+  return count;
 }
 
 console.log(occurrence("baa", "a"));
