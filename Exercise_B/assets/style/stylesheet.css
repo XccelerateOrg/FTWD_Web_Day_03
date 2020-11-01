@@ -3,11 +3,11 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background-image: url(../images/flowershop.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .icon {
-    min-width:50px;
+    width:128px;
 }
 
 .icon-text {
@@ -44,14 +44,15 @@ body {
 
 .icon-text > p {
     font-size: 3vh;
+    text-align: center;
 }
 
 .icon-block {
     margin-top: 10vh;
 }
 
-@media(min-width:400px) {
+/* @media(min-width:400px) {
     .icons{
         padding: 50px;
     }
-}
+} */
