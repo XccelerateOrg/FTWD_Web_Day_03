@@ -33,8 +33,33 @@ var KEYS = {
   "5": "t",
 };
 
+// var KEYS = {
+//   6: "a",
+//   1: "b",
+//   7: "d",
+//   4: "e",
+//   3: "i",
+//   2: "l",
+//   9: "m",
+//   8: "n",
+//   0: "o",
+//   5: "t",
+// };
+
 function maya(number) {
   // CODE HERE
+  if ( number > 999999 || number < 100 || typeof(number) != "number"){
+    return "Invalid Number!!";
+  }else {   
+  
+  }
 }
 
-console.log(maya(423));
+
+console.log(maya("aaa"));
+console.log(maya(4));
+
+// let a = 12345;
+// console.log(typeof(a));
+// a = a.toString();
+// console.log(typeof(a));

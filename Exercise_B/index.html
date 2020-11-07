@@ -7,6 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- Google Font - Lato -->
     <link
@@ -19,16 +20,55 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="./assets/images/logo.png"></a>
+  </nav>
     <!--Banner Jumbotron of the image-->
-
+    <section class="banner">
+      <div class="container container-fluid h-100 align-middle">
+          <div class="row h-100 d-flex justify-content-center align-items-center flex-column">
+              <h1>Beautiful Flowers</h1>
+              <button type="button" class="btn btn-primary btn-lg btn-success">Learn More</button>
+          </div>
+      </div>
+  </section>
     <!--Four containers with img / text-->
-    <!-- 4 containers -->
+    <section class="py-5 features d-flex justify-content-center flex-wrap">
+      <!-- Flower -->
+      <div class="grid p-3 col-8 col-sm-5 col-md-5 col-lg-3 col-xl-2">
+          <div class="d-flex align-items-center">
+              <img class="icon m-2" src="./assets/images/flower-icon.png">
+              <span class="text-left pl-3">Flowers for every kind of situation</span>
+          </div>
+      </div>
+      <!-- Payment -->
+      <div class="grid p-3  col-8 col-sm-5 col-md-5 col-lg-3 col-xl-2">
+          <div class="d-flex align-items-center">
+              <img class="icon m-2" src="./assets/images/payment-icon.png">
+              <span class="text-left pl-3">All major payments kinds accepts</span>
+          </div>
+      </div>
+      <!-- Consulation -->
+      <div class="grid p-3 col-8 col-sm-5 col-md-5 col-lg-3 col-xl-2">
+          <div class="d-flex align-items-center">
+              <img class="icon m-2" src="./assets/images/phone-icon.png">
+              <span class="text-left pl-3">Free consulation</span>
+          </div>
+      </div>
+      <!-- Delivery -->
+      <div class="grid p-3 col-8 col-sm-5 col-md-5 col-lg-3 col-xl-2">
+          <div class="d-flex align-items-center">
+              <img class="icon m-2" src="./assets/images/truck-icon.png">
+              <span class="text-left pl-3">City wide delivery</span>
+          </div>
+      </div> 
+  </section>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
+    
     <!--Scripts required for bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+ 
   </body>
 </html>

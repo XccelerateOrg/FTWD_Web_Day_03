@@ -14,7 +14,22 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if ( number<=0 || typeof(number)!="number"){
+    return "ERROR"
+  }else if ( number>=1000000){
+    return number
+  }else {
+    for (;number<1000000; number*=10);
+    return number
+    // while(number<1000000){
+    //   number *= 10;
+    // }
+    // return number;
+  }
 }
 
+console.log(multiplyNumber(0));
+console.log(multiplyNumber("Hello"));
 console.log(multiplyNumber(10));
+console.log(multiplyNumber(999999999));
+console.log(multiplyNumber(66));

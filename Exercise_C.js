@@ -14,5 +14,17 @@ See README.md if you need help running your code.
 */
 
 for (let i = 1; i <= 30; i++) {
-  // CODE HERE
+  switch (i<=30){
+    case (i%3==0 && i%5!==0):
+      console.log("Hong")
+      break
+    case (i%3!=0 && i%5==0):
+      console.log("Kong")
+      break
+    case (i%3 ==0 && i%5 ==0):
+      console.log("Hong Kong")
+      break
+    default:
+      console.log(i)
+  }
 }
