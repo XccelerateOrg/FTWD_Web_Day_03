@@ -20,7 +20,7 @@ function multiplyNumber(number) {
     return number
   }else {
     for (;number<1000000; number*=10);
-    return number
+    return number 
     // while(number<1000000){
     //   number *= 10;
     // }
