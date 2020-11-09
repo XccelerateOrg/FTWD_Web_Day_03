@@ -46,20 +46,28 @@ var KEYS = {
 //   5: "t",
 // };
 
+
 function maya(number) {
   // CODE HERE
-  if ( number > 999999 || number < 100 || typeof(number) != "number"){
+  if (number > 999999 || number < 100 || typeof (number) != "number") {
     return "Invalid Number!!";
-  }else {   
-  
+  } else {
+    var n = number.toString().split('')
+    var text = []
+    for (i = 0; i < n.length; i++) {
+      for (let j in KEYS) {
+        if (j == n[i]){
+          text.push(KEYS[j])
+        }
+      }
+    }
+    return text.join('')
   }
 }
 
 
 console.log(maya("aaa"));
 console.log(maya(4));
+console.log(maya(1572368))
+console.log(maya(15728))
 
-// let a = 12345;
-// console.log(typeof(a));
-// a = a.toString();
-// console.log(typeof(a));
