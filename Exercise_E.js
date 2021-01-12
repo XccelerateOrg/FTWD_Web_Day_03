@@ -33,8 +33,9 @@ var KEYS = {
   5: "t",
 };
 function maya(number) {
-  const split = ("" + number).split("");
-  const map1 = split.map((x) => KEYS[x]).join("");
-  return map1;
+  return ("" + number)
+    .split("")
+    .map((x) => KEYS[x])
+    .join("");
 }
 console.log(maya(423));
