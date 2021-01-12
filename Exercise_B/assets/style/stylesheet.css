@@ -1,57 +1,77 @@
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color:#444444;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
+  background: url("/Exercise_B/assets/images/flowershop.jpg") no-repeat center
+    center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #444444;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
 }
 
-.heading, #learn-more {
-    text-align: center;
-    color:#FFFFFF;
+.heading,
+#learn-more {
+  text-align: center;
+  color: #ffffff;
 }
 
 #learn-more {
-    background-color: #7ED321;
-    padding: 7px 15px 7px 15px;
-    border-radius: 100px;
-    font-size: 3vh;
-    font-weight: 800;
-    margin-top: 5vh;
+  background-color: #7ed321;
+  padding: 7px 15px 7px 15px;
+  border-radius: 100px;
+  font-size: 4vh;
+  font-weight: 800;
+  margin-top: 5vh;
+  position: relative;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .icons {
-    background-color: #CEE7B5;
+  background-color: #cee7b5;
 }
 
-.icon {
-    min-width:50px;
+@media only screen and (min-width: 576px) {
+  .icon {
+    /* min-width: 50px; */
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .icon {
+    width: 55px;
+  }
 }
 
 .icon-text {
-    display: flex;
-    align-items: center;
-    height: 15vh;
+  /* display: flex; */
+  /* margin-top: 30px; */
+  align-items: center;
+  height: 15vh;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding-left: 15px;
+  text-align: center;
 }
 
 .icon-text > p {
-    font-size: 3vh;
+  font-size: 3vh;
 }
 
 .icon-block {
-    margin-top: 10vh;
+  margin-top: 10vh;
 }
 
-@media(min-width:400px) {
-    .icons{
-        padding: 50px;
-    }
+@media (min-width: 400px) {
+  .icons {
+    padding: 50px;
+  }
 }
