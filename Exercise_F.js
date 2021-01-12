@@ -10,6 +10,6 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  return string.match(new RegExp(targetChar, "g")).length;
 }
-
 console.log(occurrence("baa", "a"));

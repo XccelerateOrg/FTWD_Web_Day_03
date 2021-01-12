@@ -122,4 +122,6 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+Deeper understanding to while loop in Exercise D;
+Array.map & how to pass a function inside in Ex. E;
+RegExp & simple regex in Ex. F;
