@@ -34,7 +34,16 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number >= 100 && number <= 999999) {
+    let num = number.toString().split()
+    for (let i = 0; i < num.length; i++) {
+      const letter = num[i]
+      console.log(letter)
+      const str = KEYS.letter
+      return str;
+    }
+  } return ('ERROR')
 }
 
 console.log(maya(423));
+

@@ -14,7 +14,14 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if (number >= 1000000) {
+    return number;
+  } else if (number > 0 && number < 1000000) {
+    while (number < 1000000) {
+      number *= 10
+    } return number;
+  } return 'Error';
 }
 
-console.log(multiplyNumber(10));
+
+console.log(multiplyNumber(2));
