@@ -32,10 +32,15 @@ var KEYS = {
   0: "o",
   5: "t",
 };
+
 function maya(number) {
-  return ("" + number)
-    .split("")
-    .map((x) => KEYS[x])
-    .join("");
+  if (number > 100 && number < 999999) {
+    return ("" + number)
+      .split("")
+      .map((x) => KEYS[x])
+      .join("");
+  } else {
+    return "ERROR";
+  }
 }
 console.log(maya(423));
