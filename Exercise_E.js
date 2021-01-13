@@ -35,15 +35,11 @@ var KEYS = {
 
 function maya(number) {
   if (number >= 100 && number <= 999999) {
-    let num = number.toString().split()
-    for (let i = 0; i < num.length; i++) {
-      const letter = num[i]
-      console.log(letter)
-      const str = KEYS.letter
-      return str;
-    }
-  } return ('ERROR')
+    let num = number.toString().split('')
+    let newArr = num.map(x => KEYS[x]).join('')
+    return newArr;
+  } return ('ERROR');
 }
 
-console.log(maya(423));
+console.log(maya(689));
 
