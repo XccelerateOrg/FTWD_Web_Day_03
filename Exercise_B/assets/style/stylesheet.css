@@ -52,8 +52,6 @@ body {
 }
 
 .icon-text {
-  /* display: flex; */
-  /* margin-top: 30px; */
   align-items: center;
   height: 15vh;
   font-size: 1.2rem;
@@ -61,7 +59,10 @@ body {
   padding-left: 15px;
   text-align: center;
 }
-
+.customposition {
+  position: relative;
+  top: 10%;
+}
 .icon-text > p {
   font-size: 3vh;
 }
