@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("/assets/images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
@@ -40,6 +40,7 @@ body {
     display: flex;
     align-items: center;
     height: 15vh;
+ 
 }
 
 .icon-text > p {
@@ -48,6 +49,7 @@ body {
 
 .icon-block {
     margin-top: 10vh;
+    /* display: inline-flex; */
 }
 
 @media(min-width:400px) {
