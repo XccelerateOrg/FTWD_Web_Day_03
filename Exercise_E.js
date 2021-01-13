@@ -21,20 +21,27 @@ The output should be always a string with one word, all lowercase.
 Maya won’t forget to thank you at the end of her article :)*/
 
 var KEYS = {
-  "6": "a",
-  "1": "b",
-  "7": "d",
-  "4": "e",
-  "3": "i",
-  "2": "l",
-  "9": "m",
-  "8": "n",
   "0": "o",
+  "1": "b",
+  "2": "l",
+  "3": "i",
+  "4": "e",
   "5": "t",
+  "6": "a",
+  "7": "d",
+  "8": "n",
+  "9": "m",
 };
 
-function maya(number) {
-  // CODE HERE
+function maya(num) {
+  if (num < 100 || num > 999999)
+    num = 'Invalid Number!';
+  else {
+    var numArr = num.toString().split('');
+    for (let i = 0; i < numArr.length; i++) {
+      numArr[i] = KEYS[numArr[i]];
+    }
+    num = numArr.join('');
+  }
+  console.log(`The value returned is: ${num}`)
 }
-
-console.log(maya(423));

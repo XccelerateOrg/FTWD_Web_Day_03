@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
+<head>
+  <meta charset="utf-8" />
+  <title>Flower Shop BS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
 
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
 
-  <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- Link and CDN required for bootstrap -->
+  <!-- Google Font - Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+</head>
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
+<body>
+  <!--Header (flower shop logo block element)-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img alt="Brand" src="assets/images/logo.png" style="height:40px">
+    </a>
+  </nav>
+  <!--Banner Jumbotron of the image-->
+  <div class="jumbotron banner">
+    <div class="heading">Beautiful Flowers</div>
+    <button type="button" id="learn-more">Learn more</button>
+  </div>
+  </div>
+  <!-- 4 containers -->
+  <div class="icons">
+    <div class="row">
+      <div class="col">
+        <div class="icon">
+          <img src="assets/images/flower-icon.png">
+          <div class="icon-text">
+            <p>Flowers for every kind of situation</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <img src="assets/images/payment-icon.png">
+          <div class="icon-text">
+            <p>All major payments kinds accepted</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="icon">
+            <img src="assets/images/phone-icon.png">
+            <div class="icon-text">
+              <p>Free Consultation</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <img src="assets/images/truck-icon.png">
+            <div class="icon-text">
+              <p>City wide delivery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
-    <!--Scripts required for bootstrap CDN-->
-  </body>
 </html>

@@ -1,49 +1,82 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+nav {
+    height: 7vh;
 }
 
 .banner {
-    background: url("./assets/flowershop.jpg") no-repeat center center;
+    background: url("../images/flowershop.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color:#444444;
-    height: 100vh;
+    height: 58vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
+    border-radius: 0;
 }
 
-.heading, #learn-more {
+.heading{
+    margin-top: 10vh;
+    color:white;
+    font-size:2em;
+    text-shadow: 1px 1px 1px #000000;
+    letter-spacing: 0.8px;
     text-align: center;
-    color:#FFFFFF;
 }
 
 #learn-more {
-    background-color: #7ED321;
-    padding: 7px 15px 7px 15px;
-    border-radius: 100px;
-    font-size: 3vh;
-    font-weight: 800;
-    margin-top: 5vh;
+    margin-top: 2.4vh;
+    width: 130px;
+    background-color: #93d62f;
+    color:white;
+    font-size:1.36em;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.2em 0.2em 0.2em 0.2em;
 }
 
 .icons {
     background-color: #CEE7B5;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.icon img{
+    width:50px;
+    height: 50px;
 }
 
 .icon {
-    min-width:50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .icon-text {
     display: flex;
     align-items: center;
     height: 15vh;
+    margin-left: 20px;
 }
 
 .icon-text > p {
-    font-size: 3vh;
+    font-size: 2.5vh;
+}
+
+.col {
+    display: flex;
+    min-width: 200px;
+}
+
 }
 
 .icon-block {
@@ -52,6 +85,6 @@ body {
 
 @media(min-width:400px) {
     .icons{
-        padding: 50px;
+        padding: 20px 40px 20px 40px;
     }
 }
