@@ -33,8 +33,17 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
+function maya(num) {
+  var numArr = num.toString().split("");
+  var str = "";
+  if (num>=100 && num<=999999) {
+    for (var i=0; i < numArr.length; i++){
+      str+= KEYS[numArr[i]];
+    };
+  return str;
+  } else {
+    return "Invalid Number!"
+  };
 }
 
 console.log(maya(423));
