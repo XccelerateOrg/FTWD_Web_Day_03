@@ -17,13 +17,13 @@ function multiplyNumber(number) {
   if (number >= 1000000) {
     return number;
   } else if (number < 1000000 && number > 0) {
-    while (number < 1000000) {
+    do {
       number *= 10;
-    }
+    } while (number < 1000000);
     return number;
   } else {
     return "ERROR";
   }
 }
 
-console.log(multiplyNumber(10000));
+console.log(multiplyNumber(999999));

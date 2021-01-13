@@ -10,11 +10,22 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  // CODE HERE
+  let o = 0;
+  switch (operator) {
+    case "+":
+      o = a + b;
+      break;
+    case "-":
+      o = a - b;
+      break;
+    case "*":
+      o = a * b;
+      break;
+    case "/":
+      o = a / b;
+      break;
   }
+  return o;
 }
-
-console.log(calculator("+", 1, 2));
+console.log(calculator("-", 20, 5));
