@@ -10,6 +10,15 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+   return string.toLowerCase().split(targetChar).length-1;
 }
 
 console.log(occurrence("baa", "a"));
+
+
+
+// function occurrence(string, targetChar) {
+//   // CODE HERE
+//   for (i=0; i< string.split("").length; i++)
+//   return string.split("").filter(targetChar=> string.split("")[i] === targetChar);
+// }
