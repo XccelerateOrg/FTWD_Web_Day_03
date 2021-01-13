@@ -15,19 +15,55 @@
     />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-expand navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="./assets/images/logo.png" alt=""></a>
+      </div>
+    </nav>
+
     <!--Banner Jumbotron of the image-->
+    <div class="jumbotron banner">
+      <h1 class="display-4 heading">Beautiful Flower</h1>
+      <a class="btn btn-primary btn-lg" href="#" role="button" id="learn-more">Learn more</a>
+    </div>
 
     <!--Four containers with img / text-->
-    <!-- 4 containers -->
+    <div class="container-fluid icon bg-green">
+      <!-- 4 containers -->
+      <div class="row justify-content-center">
+        <div class="icon-block col-md-6 col-lg-3">
+          <img class="icons responsive col-md-4" src="./assets/images/flower-icon.png" alt="">
+          <div class="icon-text col-md-8 col-sm-4 col">Flowers for every kind of situation</div>
+        </div>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+        <div class="icon-block col-md-6 col-lg-3">
+          <img class="icons responsive col-md-4" src="./assets/images/payment-icon.png" alt="">
+          <div class="icon-text col-md-8 col-sm-4 col">All major payment kinds are accepted</div>
+        </div>
 
-    <!-- Delivery Div -->
+        <div class="icon-block col-md-6 col-lg-3">
+          <img class="icons responsive col-md-4" src="./assets/images/phone-icon.png" alt="">
+          <div class="icon-text col-md-8 col-sm-4 col">Free consultation</div>
+        </div>
+
+        <div class="icon-block col-md-6 col-lg-3">
+          <img class="icons responsive col-md-4" src="./assets/images/truck-icon.png" alt="">
+          <div class="icon-text col-md-8 col-sm-4 col">City wide delivery</div>
+        </div>
+      </div>
+      
+      <!-- Payments Div -->
+      <!-- Consultation Div -->
+
+      <!-- Delivery Div -->
+    </div>
+    
 
     <!--Scripts required for bootstrap CDN-->
   </body>
