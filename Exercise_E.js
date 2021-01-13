@@ -33,8 +33,15 @@ var KEYS = {
   "5": "t",
 };
 
+
+//UNFRIEND DAN!!!
+
 function maya(number) {
   // CODE HERE
+  if (number>=100 && number <= 999999){
+    return number.toString().split("").map((x)=>KEYS[x]).join("");
+  } 
+  return "ERROR"
 }
 
 console.log(maya(423));
