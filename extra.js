@@ -10,11 +10,24 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  if (a > 0 && b > 0){
+  switch (operator) {
+    case '+':
+      console.log(a+b);
+      break;
+    case '-':
+      console.log(a-b);
+      break;
+    case '/':
+      console.log(a/b);
+      break;
+    case '*':
+      console.log(a*b);
+      break;
+    default:
+      console.log('Error');
+  }
   }
 }
 
-console.log(calculator("+", 1, 2));
+console.log(calculator("/", 2, 102));

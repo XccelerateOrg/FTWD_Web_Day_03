@@ -15,6 +15,17 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
+  if (number >= 10 ** 6) {
+    return number;
+  } else if (number > 0 && number < 1000000) {
+    while (number < 1000000) {
+     number *= 10;
+    }
+    return number;
+  } else {
+    return 'ERROR';
+  }
 }
 
-console.log(multiplyNumber(10));
+
+console.log(multiplyNumber(335));
