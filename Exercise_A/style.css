@@ -1,0 +1,30 @@
+/* .nav-item {
+  margin: 10px;
+  color: rgb(65, 136, 199);
+  font-size: large;
+}
+
+.bootpic {
+  width: 50px;
+  height: 50px;
+} */
+
+.nav-link :active {
+  font-size: large;
+}
+
+.blogo {
+  width: 50px;
+  height: 50px;
+}
+
+.containerss {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.items {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-top: solid 5px gray;
+}
