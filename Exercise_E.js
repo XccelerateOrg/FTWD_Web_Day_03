@@ -34,7 +34,15 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
-}
+  if(number>=100 && number<=999999){
+    digits= number.toString();
+    digits= digits.split("")
+     var letters=[];
+    for (i=0; i<digits.length;i++){
+      letters.push(Object.values(KEYS[digits[i]]))}
+      console.log(letters.join(''))
+    }
+    else console.log("Invalid Number")
+  }
 
 console.log(maya(423));
