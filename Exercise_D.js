@@ -14,7 +14,12 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  let i = 0
+  if ((i + number) > 0){
+    console.log(number * 1000000)
+  } else{
+    return 'ERROR';
+  }
 }
 
 console.log(multiplyNumber(10));
