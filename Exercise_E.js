@@ -15,10 +15,13 @@ Luckily, Maya has the key:
 You can help Maya by writing a function that will take a number between 100 and 999999 and 
 return a string with the word.
 
+
 The input is always a number, contains only the numbers in the key. 
 The output should be always a string with one word, all lowercase.
 
 Maya won’t forget to thank you at the end of her article :)*/
+
+
 
 var KEYS = {
   "6": "a",
@@ -33,8 +36,23 @@ var KEYS = {
   "5": "t",
 };
 
-function maya(number) {
-  // CODE HERE
-}
 
-console.log(maya(423));
+//first function
+function maya(number) {
+  if (number<100 || number>999999) {
+    throw new Error("Invalid Number!");
+  }
+
+  //changing number to a string and giving it a new name
+  var numberString = number.toString();
+  console.log(numberString)
+  var result = "";
+  console.log(result)
+
+
+  for (var numberChar of numberString) { //loops through the values of an iterable object
+    result += KEYS[numberChar]; //taking number
+  }
+  return result;
+}
+console.log(maya(15728));
