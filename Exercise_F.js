@@ -8,8 +8,16 @@
  * The function will count the number of times that character appears in the string.
  * The count is case insensitive. */
 
-function occurrence(string, targetChar) {
+function occurrence(string, character) {
   // CODE HERE
+  let timesappear = 0;
+  var mark = character.toLowerCase();
+  for (var i of string.toLowerCase()) {
+    if (i == mark) {
+      timesappear++;
+    }
+  }
+  return timesappear;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("google", "g"));

@@ -28,8 +28,9 @@
 const tenNumber = (number) => {
   if(number * 10 >= 1_000_000) {
     console.log(number) 
+    return number
   } else {
-    console.log(multiplyNumber)
+    return number * 10
   }
   };
   
