@@ -17,14 +17,11 @@ let arr = [];
 let str = "";
 for (let i=1; i <= 30; i++) {
   if (i%3===0 && i%5===0) {
-    str = "Hong Kong";
-    arr.push(str);
+    arr.push("Hong Kong");
   } else if (i%3===0) {
-    str = "Hong";
-    arr.push(str);
+    arr.push("Hong");
   } else if (i%5===0) {
-    str = "Kong";
-    arr.push(str);
+    arr.push("Kong");
   } else {
     arr.push(i);
   }

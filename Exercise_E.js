@@ -42,7 +42,7 @@ function maya(num) {
     };
   return str;
   } else {
-    return "Invalid Number!"
+    throw new Error('Invalid number!');
   };
 }
 

@@ -15,7 +15,7 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(num) {
   if (num <=0 || isNaN(num)) {
-    return console.log("ERROR");
+    throw new Error('Error');
   } else if (num >= 1000000) {
     return console.log(num);
   } else {
