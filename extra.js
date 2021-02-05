@@ -10,10 +10,22 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  if(a<0 || b<0){
+    throw new Error("number should be positive")
+  }else
+  switch (operator) {
+    case "+": 
+      return a+b
+      break;
+    case "-":
+      return a-b
+      break;
+    case "/":
+      return a/b
+      break;
+    case "*":
+      return a*b
+      break;
   }
 }
 
