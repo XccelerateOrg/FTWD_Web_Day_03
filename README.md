@@ -88,7 +88,7 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ```
 
-- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
+- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website.
 
 * [ ] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
 * [ ] The four logos at the bottom should spread to one horizontal line on a large screen.
@@ -122,4 +122,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+You can add multiple classes eg col-l-6 on different grids to create better responsiveness on all screen!
