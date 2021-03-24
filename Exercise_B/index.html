@@ -7,6 +7,31 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
 
     <!-- Google Font - Lato -->
     <link
@@ -19,16 +44,142 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <div class="container-fluid justify-content-start bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png">
+      </a>
+    </div>
+
     <!--Banner Jumbotron of the image-->
+    <div class='overlay'></div>
+    <div class="jumbotron d-flex flex-row align-items-center">
+      <div class="container d-flex flex-column">
+        <h1 class="h2 text-white text-center heading">Beautiful Flowers</h1>
+        <div class="d-flex justify-content-center heading">
+          <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+        </div>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
-
     <!-- Payments Div -->
     <!-- Consultation Div -->
-
     <!-- Delivery Div -->
+    <section class='container-fluid'>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class='icon'>
+            <img src='./assets/images/flower-icon.png' class="iconImg">
+            <p>Flowers for every of situation</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class='icon'>
+            <img src='./assets/images/payment-icon.png' class="iconImg">
+            <p>All major payment types accepted</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class='icon'>
+            <img src='./assets/images/phone-icon.png' class="iconImg">
+            <p>Free consultation</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class='icon'>
+            <img src='./assets/images/truck-icon.png' class="iconImg">
+            <p>City Wide delivery</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="order-2 order-xl-1 col-md-6 col-xl-7">
+            <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 478px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.09848557058!2d113.98761619751527!3d22.352980760241152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1593162785167!5m2!1sen!2shk"
+                frameborder="0" width="100%" height="100%" style="border:0"  allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="order-1 order-xl-2 col-md-6 col-xl-5">
+              <form action="https://formspree.io/mjvaegbw" method="POST">
+                  <h3 class="heading text-center">Get In Touch</h2>
+                  <div class="heading-underline"></div>
+                  <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                  <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                  <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                  <div class="form-group"><button class="btn btn-primary" type="submit" value="Send">send </button></div>
+              </form>
+          </div>
+        </div>
+      </div>
+      </div>
 
     <!--Scripts required for bootstrap CDN-->
   </body>
+  <style>
+    html {
+      background-color: #cee7b5;
+    }
+
+    .container-fluid {
+      background-color: #cee7b5;
+    }
+
+    .row {
+      background-color: #cee7b5;
+      max-width: 80rem;
+      margin: 0 auto;
+    }
+
+    /* div {
+      border: 1px solid red;
+    } */
+
+    p {
+      font-size: 1rem;
+      /* border: 1px solid red; */
+    }
+
+    .jumbotron {
+      background-image: url("./assets/images/flowershop.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 720px;
+      margin: 0px;
+    }
+
+    .overlay {
+      width: 100%;
+      height: 720px;
+      background-color: #000000;
+      opacity: 0.5;
+      position: absolute;
+    }
+
+    .heading {
+      z-index: 5;
+    }
+
+    .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .icon p {
+      width: 50%;
+    }
+
+    .iconImg {
+      padding-right: 1rem;
+    }
+
+
+  </style>
 </html>
