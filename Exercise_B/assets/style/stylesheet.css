@@ -1,1 +1,43 @@
 /* Your CSS code here */
+.card{
+    background-image: url(/Exercise_B/assets/images/flowershop.jpg);
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+}
+
+.card-title{
+    font-size: 3rem;
+}
+
+.green-btn{
+    background: greenyellow;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+}
+
+/* features section */
+#section-two{
+    background-color: #cee7b5;
+    padding: 2rem 0;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.icon{
+    height: auto;
+}
+
+.description{
+    align-self: center;
+}
