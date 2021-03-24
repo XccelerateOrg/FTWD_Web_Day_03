@@ -4,9 +4,27 @@
     <meta charset="utf-8" />
     <title>Flower Shop BS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
-
-    <!-- Link and CDN required for bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Google Font - Lato -->
     <link
@@ -18,17 +36,39 @@
   </head>
 
   <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
-
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
-
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
-    <!--Scripts required for bootstrap CDN-->
-  </body>
-</html>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" class="d-inline-block align-text-top">
+        </a>
+      </div>
+    </nav>
+    <div class="jc1">
+      <div class="container">
+        <h1 class="jumbotron-heading">Beautiful Flowers</h1>
+        <a href="#" class="btn btn-primary my-2">Learn more</a>
+      </div>
+    </div>
+    <div class="jc2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/images/flower-icon.png" class="icon">
+            <p>Flower for every<br>kind of situation</p>
+          </div>
+          <div class="col">
+            <img src="./assets/images/payment-icon.png" class="icon">
+            <p>All major payments<br>kinds accepted</p>
+          </div>
+          <div class="col">
+            <img src="./assets/images/phone-icon.png" class="icon">
+            <p>Free consulation</p>
+          </div>
+          <div class="col">
+            <img src="./assets/images/truck-icon.png" class="icon">
+            <p>City side delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    

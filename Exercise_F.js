@@ -9,7 +9,13 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  let sString = string.split("")
+  let newarr = [];
+  for (i=0; i < sString.length; i++){
+    if (targetChar === sString[i]) {
+      newarr.push(1)
+    }
+  } return newarr.reduce((accumulator, currentValue) => accumulator + currentValue);
 }
 
 console.log(occurrence("baa", "a"));

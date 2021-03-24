@@ -33,8 +33,16 @@ var KEYS = {
   "5": "t",
 };
 
+
 function maya(number) {
-  // CODE HERE
-}
+  let sNo = number.toString()
+  let arr = sNo.split("")
+  let newKey = Object.values(KEYS)
+  let newarr = [];
+  for (let i=0; i < arr.length; i++) {
+    newarr.push(newKey[arr[i]]);
+  }
+  return newarr.join("") 
+} 
 
 console.log(maya(423));

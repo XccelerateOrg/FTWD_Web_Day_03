@@ -1,1 +1,70 @@
 /* Your CSS code here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    width: 5rem;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 20rem;
+}
+
+.jc1 {
+    background-image: url(/FTWD_Web_Day_03/Exercise_B/assets/images/flowershop.jpg);
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: multiply;
+    background-color: grey;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.jc2 {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206,231,180);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: rgb(125,211,31);
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .jc2 {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(206,231,180);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
