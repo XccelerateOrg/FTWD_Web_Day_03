@@ -122,4 +122,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-I learnt to take things slowly.
+(Fill whatever you would like here)
