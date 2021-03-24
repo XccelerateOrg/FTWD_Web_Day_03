@@ -1,5 +1,9 @@
 /* Justify content aligns things horizontally */
 /* Align items aligns things vertically */
+div {
+  border: 1px solid red;
+}
+
 
 body {
   padding: 0;
@@ -75,6 +79,7 @@ header img {
   width: 40%;
   height: 140px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
