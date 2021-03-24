@@ -88,17 +88,17 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ```
 
-- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
+- [x] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
 
-* [ ] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
-* [ ] The four logos at the bottom should spread to one horizontal line on a large screen.
-* [ ] The four logos should remain in two columns on a medium screen.
+* [x] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
+* [x] The four logos at the bottom should spread to one horizontal line on a large screen.
+* [x] The four logos should remain in two columns on a medium screen.
 
-- [ ] Exercise C: Loop
+- [x] Exercise C: Loop
 
-- [ ] Exercise D: Multiply Number
+- [x] Exercise D: Multiply Number
 
-- [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+- [x] Finish the 'What is one thing that I learned from doing this project?' in the readme
 
 ## Bonus Exercises
 
@@ -122,4 +122,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+learnt how to use bootstrap.

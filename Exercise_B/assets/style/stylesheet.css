@@ -1,1 +1,64 @@
 /* Your CSS code here */
+
+body {
+    background-color: rgba(101, 220, 101, 0.646);
+}
+
+
+.banner {
+    background-image: url('../images/flowershop.jpg');
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.427);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container .row{
+    height: 70vh;
+}
+
+.shopName {
+    color: white;
+}
+
+.container .four{
+    background-color: lightgreen;
+}
+
+.green-btn {
+    border-radius: 25px; 
+    font-size: 20px;
+}
+
+.text-to-center {
+    text-align: center;
+    position: relative;
+        /* border:black 40px solid; */
+}
+.giveBorder {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border:black 40px solid; */
+}
+
+/* .col {
+    display: flex;
+    justify-self:center;
+} */
+
+.four .col {
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    border-top: 40px solid transparent;
+}
+
+.four img {
+    width: 100px;
+    height: 100px;
+}
+
