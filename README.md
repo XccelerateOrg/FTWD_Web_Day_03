@@ -122,4 +122,11 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
+
+bootstrap img.responsive is replaced with img-fluid.
 (Fill whatever you would like here)
+
+In Html couldnt overlay the text ontop of the image
+  <img src='/Exercise_B/assets/images/flowershop.jpg' class="img-fluid JumbotronImage">
+            <p class="wordOverLay">Beautiful Flowers</p>
+going to set it as background image on css
