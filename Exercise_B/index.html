@@ -7,7 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -19,9 +19,42 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <div class="row">
+      <div class="grid-row col-sm-12">
+        <img src="assets/images/logo.png" alt="Flowershop Logo">
+      </div>
+    </div>
     <!--Banner Jumbotron of the image-->
-
+    <div class="jumbotron">
+      <div class="overlay">
+      </div>
+      <h1 class="display-4">Beautiful Flowers</h1>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+      </div>
+    </div>
     <!--Four containers with img / text-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="/Exercise_B/assets/images/flower-icon.png" alt="Flower Icon">
+          <p> Flowers for every kind of situation</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/Exercise_B/assets/images/payment-icon.png" alt="Flower Icon">
+          <p> All major payment types accepted</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/Exercise_B/assets/images/phone-icon.png" alt="Flower Icon">
+          <p> Free consultation</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/Exercise_B/assets/images/truck-icon.png" alt="Flower Icon">
+          <p> City Wide delivery</p>
+        </div>
+      </div>
+    </div>
     <!-- 4 containers -->
 
     <!-- Payments Div -->
@@ -30,5 +63,22 @@
     <!-- Delivery Div -->
 
     <!--Scripts required for bootstrap CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
