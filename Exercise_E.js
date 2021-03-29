@@ -34,7 +34,26 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+var myString = number.toString();
+var returnStr = "";
+for (var i = 0 < myString.length; i++) {
+  returnStr = returnStr + myString.chatAt(i);
 }
+return returnStr;
+  }
 
-console.log(maya(423));
+  console.log(maya(423));
+
+
+
+//  You can help Maya by writing a function that will take a number between 100 and 999999 and return a string with the word.
+
+
+
+
+
+// The input is always a number, contains only the numbers in the key.
+
+
+// The output should be always a string with one word, all lowercase. 
+
