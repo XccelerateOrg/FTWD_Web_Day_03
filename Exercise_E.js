@@ -4,7 +4,7 @@
  ***********************************************/
 /** #  #
 /*  ====================== */
-/** Maya writes weekly articles to a well known magazine, but she is missing one word each time she is 
+/** Maya writes weekly articles to a well known magazine, but she is missing one word each time. she is 
  * about to send the article to the editor. The article is not complete without this word. 
  * Maya has a friend, Dan, and he is very good with words, but he doesn’t like to just give them away. 
  * He texts Maya a number and she needs to find out the hidden word. 
