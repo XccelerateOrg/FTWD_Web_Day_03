@@ -52,7 +52,7 @@ Method Two:
 
 ## Exercises Due :athletic_shoe:
 
-- [ ] Exercise A: Create a bootstrap page, place a bootstrap navigation bar, bootstrap list group and bootstrap buttons onto the page to mirror this image:
+- [*] Exercise A: Create a bootstrap page, place a bootstrap navigation bar, bootstrap list group and bootstrap buttons onto the page to mirror this image:
 
   ![Bootstrap Image](assets/bootstrapDemo.png)
 
