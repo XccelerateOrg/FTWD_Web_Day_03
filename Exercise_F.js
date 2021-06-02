@@ -10,6 +10,7 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  return string.split(targetChar).length - 1
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("baa", "b"));

@@ -15,6 +15,23 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
+  const target = 1000000
+  if (number <= 0 || isNaN(number)){
+    return "ERROR";
+  } 
+  
+  if (number >= target){
+    return number;
+  }
+
+  let product = number
+  let count = 0
+
+  while (product < target){
+    product = product * 10 
+    count++
+  }
+  return count
 }
 
 console.log(multiplyNumber(10));

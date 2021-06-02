@@ -9,12 +9,26 @@
  * The calculator function should handle these operators: +, -, /, * (Addition, Subtraction, Division and Multiplication)
  * The numbers should always be positive */
 
+var output = '';
+
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  switch (operator){
+    case "+":
+      output = Math.abs(a+b);
+      break;
+    case "-":
+      output = Math.abs(a-b);
+      break;
+    case "*":
+      output = Math.abs(a*b);
+      break;
+    case "/":
+      output = Math.abs(a/b);
   }
+  return output
 }
 
 console.log(calculator("+", 1, 2));
+console.log(calculator("-", 1, 2));
+console.log(calculator("*", 1, 2));
+console.log(calculator("/", 1, 2));
