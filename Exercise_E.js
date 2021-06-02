@@ -53,4 +53,4 @@ function maya(number) {
   return string
 }
 
- console.log(maya(423));
+console.log(maya(423));
