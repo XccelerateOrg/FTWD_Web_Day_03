@@ -1,1 +1,49 @@
-/* Your CSS code here */
+body {
+    font-family: 'Lato', sans-serif, !important;
+}
+
+.hero {
+    background: url(../images/flowershop.jpg);
+    background-position: center;
+    background-repeat: none !important;
+    background-size: cover;
+    height: 60vh;
+}
+
+.heading-words {
+    color: #fff;
+}
+
+.features-text {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+img {
+    height: 80px;
+    padding-right: 2rem;
+
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.features-container {
+    background-color: #CEE7B4;
+}
+
+.btn-success {
+    background-color: #CEE7B4;
+    border-color: #CEE7B4;
+}
+
+.btn-success:hover {
+    background-color: #CEE7B4;
+    border-color: #CEE7B4;
+}
+
+
+
+
+

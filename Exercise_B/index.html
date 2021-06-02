@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
-
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
-
-  <body>
     <!--Header (flower shop logo block element)-->
     <!--Banner Jumbotron of the image-->
 
@@ -26,9 +7,76 @@
 
     <!-- Payments Div -->
     <!-- Consultation Div -->
-
     <!-- Delivery Div -->
-
     <!--Scripts required for bootstrap CDN-->
+
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content=""/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/stylesheet.css">
+  </head>
+  <body>
+    <!-- CODE HERE -->
+    
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid gx-9">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="d-flex align-items-center text-center hero">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold heading-words">Beatiful Flowers</h1>
+        <button class="btn btn-success btn-lg" type="button">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="container-fluid features-container pt-5 pb-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 gy-5">
+          <div class="col features-item d-flex align-items-center">
+            <img src="./assets/images/flower-icon.png" alt="" class="features-img">
+            <h2 class="features-text">Flowers for every kind of situation</h2>
+          </div>
+          <div class="col features-item d-flex align-items-center">
+            <img src="./assets/images/payment-icon.png" alt="" class="features-img">
+            <h2 class="features-text">All major payment services accepted</h2>
+          </div>
+          <div class="col features-item d-flex align-items-center">
+            <img src="./assets/images/phone-icon.png" alt="" class="features-img">
+            <h2 class="features-text">Free consultation</h2>
+          </div>
+          <div class="col features-item d-flex align-items-center">
+            <img src="./assets/images/truck-icon.png" alt="" class="features-img">
+            <h2 class="features-text">City-wide delivery</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
+

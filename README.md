@@ -122,4 +122,6 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+• Found it very tiresome to change the default styling of bootstrap (I think this is why I started using foundation in the first place; it starts off much simpler).
+• I did glance at some peoples answer for exercise E and F, but quite honestly I'm not 100% sure what is going on, why, and how. I feel like I'm falling behind a bit behind even though I've done all the reading. I'm going to have a look a freecodecamp and see if it helps in my understanding.
+
