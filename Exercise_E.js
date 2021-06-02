@@ -20,6 +20,12 @@ The output should be always a string with one word, all lowercase.
 
 Maya won’t forget to thank you at the end of her article :)*/
 
+//what kind of shit friend does that????????????????????????????
+// "3" > "i"
+  // "7" > "d"
+  // "9" > "m"
+  // dummy > KEYS[dummy] (KEYS.dummy is wrong!!!)
+
 var KEYS = {
   "6": "a",
   "1": "b",
@@ -34,7 +40,14 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
-}
+  var results = []
+  var dan = number.toString().split("");
+  for (var i=0; i < dan.length; i++){
+      results += KEYS[dan[i]]    
+      }
+      return results
+    }
+
+  
 
 console.log(maya(423));
