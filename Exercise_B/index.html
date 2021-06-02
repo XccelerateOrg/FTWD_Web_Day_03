@@ -7,7 +7,12 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -18,17 +23,60 @@
   </head>
 
   <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+    <div class="container">
+      <!--Header (flower shop logo block element)-->
+      <img class="py-2" src="./assets/images/logo.png" alt="shop logo" />
+      <!--Banner Jumbotron of the image-->
+      <div class="card text-white ">
+        <img src="./assets/images/flowershop.jpg" style="filter: brightness(.5);"/>
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
+        <div
+          class="
+            card-img-overlay
+            d-inline-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            ">
+          <h1>Beautiful Flowers</h1>
+          <button class="bg-success">Learn more</button>
+        </div>
+      </div>
+      <!--Four containers with img / text-->
+      <!-- 4 containers -->
+      <div class="container bg-success p-5">
+        <div class="row">
+          <!-- flowers situation div -->
+          <div class="col d-inline-flex align-items-center">
+            <img src="./assets/images/flower-icon.png">
+            <p>Flowers for every kind of situation</p>
+          </div>
+          <!-- Payments Div -->
+          <div class="col d-inline-flex align-items-center">
+            <img src="./assets/images/payment-icon.png">
+            <p>All major payments accepted</p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Consultation Div -->
+          <div class="col d-inline-flex align-items-center">
+            <img src="./assets/images/phone-icon.png">
+            <p>Free consultation</p>
+          </div>
+          <!-- Delivery Div -->
+          <div class="col d-inline-flex align-items-center">
+            <img src="./assets/images/truck-icon.png">
+            <p>City wide delivery</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
+    </div>
     <!--Scripts required for bootstrap CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
