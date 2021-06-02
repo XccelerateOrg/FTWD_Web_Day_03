@@ -33,8 +33,24 @@ var KEYS = {
   "5": "t",
 };
 
+
 function maya(number) {
-  // CODE HERE
+  // CODE HERE 
+  
+  number = number.toString();
+  var string = '';
+  
+  for(i=0; i<number.length; i++){
+    for (let p in KEYS){
+      if(p == number[i]){
+        console.log(number[i]);
+        string += KEYS[p];
+        
+      }
+    }
+  }
+  
+  return string
 }
 
-console.log(maya(423));
+
