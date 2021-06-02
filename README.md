@@ -122,4 +122,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+I've become much more proficient with CSS and HTML now. Just a few days ago, I absolutely hated the two languages but I am slowly getting to grips with it. I do believe I managed to make the site look pretty good from an aesthetic point of view considering I have only been coding for a week. I've also realized that javascript tends to come a bit easier to me since it's more logical and HTML/CSS is more design-oriented.
