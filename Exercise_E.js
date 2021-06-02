@@ -49,8 +49,8 @@ function maya(number) {
       }
     }
   }
-  
+
   return string
 }
 
-
+ console.log(multiplyNumber(10))
