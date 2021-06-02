@@ -10,10 +10,17 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  switch (operator) {
+    case "+":
+      return Math.abs(a + b);
+    case "-":
+      return Math.abs(a - b);
+    case "/":
+      return Math.abs(a / b);
+    case "*":
+      return Math.abs(a * b);
+    default:
+      return "Something went wrong";
   }
 }
 

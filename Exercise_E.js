@@ -34,7 +34,18 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  // change the number to a string and then create an array we can iterate over.
+  let code = number.toString().split("");
+  let resultString = ""
+
+  // iterate over the string and append the key's value pair to our empty string
+  for (x in code) {
+    resultString = resultString.concat("", KEYS[code[x]]);
+  }
+
+  // return the completed string.
+  return resultString;
 }
 
-console.log(maya(423));
+
+console.log(maya(432));

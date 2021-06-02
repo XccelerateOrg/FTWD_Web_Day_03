@@ -94,19 +94,19 @@ Place this link tag as well as the scripts in the correct places within your ind
 * [*] The four logos at the bottom should spread to one horizontal line on a large screen.
 * [*] The four logos should remain in two columns on a medium screen.
 
-- [ ] Exercise C: Loop
+- [*] Exercise C: Loop
 
-- [ ] Exercise D: Multiply Number
+- [*] Exercise D: Multiply Number
 
-- [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+- [*] Finish the 'What is one thing that I learned from doing this project?' in the readme
 
 ## Bonus Exercises
 
-- [ ] Exercise E: Maya's Weekly Articles
+- [*] Exercise E: Maya's Weekly Articles
 
-- [ ] Exercise F: Occurrence within a string
+- [*] Exercise F: Occurrence within a string
 
-- [ ] Extra: Finish implementing the calculator function.
+- [*] Extra: Finish implementing the calculator function.
 
 ### Tips :tipping_hand_woman:
 
@@ -122,4 +122,6 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+Finally clicked with Switch staments and how fix buz might not really be what they're ment for. 
+
+eg. they're about comparasion and not evaulation.
