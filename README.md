@@ -52,7 +52,7 @@ Method Two:
 
 ## Exercises Due :athletic_shoe:
 
-- [ ] Exercise A: Create a bootstrap page, place a bootstrap navigation bar, bootstrap list group and bootstrap buttons onto the page to mirror this image:
+- [x] Exercise A: Create a bootstrap page, place a bootstrap navigation bar, bootstrap list group and bootstrap buttons onto the page to mirror this image:
 
   ![Bootstrap Image](assets/bootstrapDemo.png)
 
@@ -88,25 +88,25 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ```
 
-- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
+- [x] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
 
-* [ ] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
-* [ ] The four logos at the bottom should spread to one horizontal line on a large screen.
-* [ ] The four logos should remain in two columns on a medium screen.
+* [x] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
+* [x] The four logos at the bottom should spread to one horizontal line on a large screen.
+* [x] The four logos should remain in two columns on a medium screen.
 
-- [ ] Exercise C: Loop
+- [x] Exercise C: Loop
 
-- [ ] Exercise D: Multiply Number
+- [x] Exercise D: Multiply Number
 
-- [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+- [x] Finish the 'What is one thing that I learned from doing this project?' in the readme
 
 ## Bonus Exercises
 
-- [ ] Exercise E: Maya's Weekly Articles
+- [x] Exercise E: Maya's Weekly Articles
 
-- [ ] Exercise F: Occurrence within a string
+- [x] Exercise F: Occurrence within a string
 
-- [ ] Extra: Finish implementing the calculator function.
+- [x] Extra: Finish implementing the calculator function.
 
 ### Tips :tipping_hand_woman:
 
@@ -121,5 +121,5 @@ Place this link tag as well as the scripts in the correct places within your ind
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
-
+jumbotron
 (Fill whatever you would like here)
