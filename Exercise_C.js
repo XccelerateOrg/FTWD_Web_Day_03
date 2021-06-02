@@ -12,7 +12,15 @@ If the number is divisible by 3 and 5 it should log Hong Kong.
 
 See README.md if you need help running your code.
 */
+var x = []
+for (i = 1; i <= 30; i++) {
+if (i%3 == 0 && i%5 == 0) {
+  x.push("Hong Kong")
+} else if (i%3 == 0 && i%5 !== 0) {
+  x.push("Hong")
+} else if (i%3 !== 0 && i%5 == 0) {
+  x.push("Kong")
+} else x.push(i);
+};
 
-for (let i = 1; i <= 30; i++) {
-  // CODE HERE
-}
+console.log(x)
