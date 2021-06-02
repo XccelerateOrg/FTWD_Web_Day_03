@@ -53,4 +53,4 @@ function maya(number) {
   return string
 }
 
- console.log(multiplyNumber(10))
+ console.log(maya(423));

@@ -29,5 +29,6 @@ function multiplyNumber(number) {
     
 }
 
+console.log(multiplyNumber(10));
 
 
