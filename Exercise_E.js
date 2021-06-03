@@ -33,8 +33,31 @@ var KEYS = {
   "5": "t",
 };
 
+let transform = [];
+
 function maya(number) {
-  // CODE HERE
+  if (number < 100 || number > 999999 || isNaN(number) == true) {
+    return "The value returned is: Invalid Number!";
+  } else {
+    let str = number.toString();                  // change the number to string
+    for (let i=0; i < str.length; i++) {
+      const key = str.charAt(i);              //Get the char in number
+      transform.push(KEYS[key]);                 //put the value of KEYS into transform array
+    }  
+    return transform.join('');                       // print the transform array
+  }  
 }
 
-console.log(maya(423));
+
+console.log(maya(423))
+
+
+// const transform = [];
+
+// function maya(number) {
+//     for (let i=0; i < number.length; i++) {
+//       const key = number.charAt(i);
+//       return transform.push(KEYS[key]);
+//     } console.log(transform);
+// } 
+

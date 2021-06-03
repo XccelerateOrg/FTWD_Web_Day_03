@@ -9,7 +9,12 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
-}
+  var criti = new RegExp(targetChar,'g');
+  let count = (string.match(criti) || []).length;
+  return count;
+
+  // return string.split(targetChar).length-1;     <--this is from james for reference
+
+} 
 
 console.log(occurrence("baa", "a"));

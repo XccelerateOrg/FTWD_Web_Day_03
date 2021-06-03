@@ -5,9 +5,8 @@
     <title>Flower Shop BS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
-
-    <!-- Link and CDN required for bootstrap -->
-
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -17,7 +16,7 @@
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
   </head>
 
-  <body>
+ 
     <!--Header (flower shop logo block element)-->
     <!--Banner Jumbotron of the image-->
 
@@ -30,5 +29,64 @@
     <!-- Delivery Div -->
 
     <!--Scripts required for bootstrap CDN-->
-  </body>
+
+  <body>
+    <div class="logo">
+      <img src="./assets/images/logo.png" id="logo" alt="logo">
+    </div>
+    <div class="upper">
+      <h1 id="headline">Beautiful Flowers</h1>
+      <div class="col-2 d-grid gap-2 mx-auto">
+        <button id="learnmore" class="btn btn-success" type="button">Learn more</button>
+      </div>
+      <!-- <p id="learnmore">Learn more</p> -->
+    </div>
+    <!--Lower-->
+    <!-- <div class="lower">
+      <div class="container">
+        <div class="row text-center d-flex p-1 p-1">
+          <div class="col-12 col-xl-3 p-1 d-inline-flex justify-content-start align-items-center">
+            <img class="img-fluid text-left" src="./assets/images/flower-icon.png" id="flower icon" alt="flower-icon" style="object-fit:contain;">
+            <p class="text-wrap" id="flower">Flowers for every kind of situation</p>
+          </div>
+          <div class="col-12 col-xl-3 p-1 d-flex justify-content-start align-items-center">
+            <img class="img-fluid text-left" src="./assets/images/payment-icon.png" id="payment icon" alt="payment-icon" style="object-fit:contain;">
+            <p class="text-wrap" id="payment">All major payments kinds accepted</p>
+          </div>
+          <div class="col-12 col-xl-3 p-1 d-flex justify-content-start align-items-center">
+            <img class="img-fluid text-left" src="assets/images/phone-icon.png" id="phone icon" alt="contact method" style="object-fit:contain;">
+            <p class="text-wrap" id="phone">Free consulation</p>
+          </div>
+          <div class="col-12 col-xl-3 p-1 d-flex justify-content-start align-items-center">
+            <img class="img-fluid text-left" src="assets/images/truck-icon.png" id="delivery icon" alt="delivery method" style="object-fit:contain;">
+            <p class="text-wrap" id="delivery">City wide delivery</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="lower">
+      <div class="container text-center p-3">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3 p-1 d-inline-flex align-items-center">
+            <img class="" src="./assets/images/flower-icon.png"  alt="flower-icon">
+            <p class="mx-auto" id="flower">Flowers for very kind of situation</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-1 d-inline-flex align-items-center">
+            <img class="" src="./assets/images/payment-icon.png"  alt="payment-icon">
+            <p class="mx-auto" id="payment">All major payments kinds accepted</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-1 d-inline-flex align-items-center">
+            <img class="" src="assets/images/phone-icon.png" alt="contact method">
+            <p class="mx-auto" id="phone">Free consulation</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-1 d-inline-flex align-items-center">
+            <img class="" src="assets/images/truck-icon.png"  alt="delivery method">
+            <p class="mx-auto" id="delivery">City wide delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
 </html>
