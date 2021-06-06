@@ -33,8 +33,23 @@ var KEYS = {
   "5": "t",
 };
 
+
 function maya(number) {
-  // CODE HERE
+  if (number > 999999 || number < 100) {
+    return;
+  } else {
+    let Num = Math.abs(number).toString();
+    let n = Num.length;
+    let ans ="";
+    let Ans ="";
+    let i = 0;
+    Array = Num.split("");
+    for (let i = 0; i < n; i++) {
+      Ans = KEYS[Array[i]];
+      ans = ans + Ans;
+    }
+    return ans;
+  }
 }
 
 console.log(maya(423));
