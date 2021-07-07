@@ -7,7 +7,12 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -19,16 +24,119 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+    <nav>
+      <img src="assets/images/logo.png">
+      <!--1st widget-->
+      <button type="button" class="btn btn-link"><a href="#info">BUY NOW</a></button>
+    </nav>
+
+    <header>
+      <div><h1>Beautiful Flowers</h1></div>
+      <div class="break"></div>
+      <div class="button"><a href="#info"><h3>Learn more</h3></a></div>
+    </header>
 
     <!--Four containers with img / text-->
+    <section id="info">
     <!-- 4 containers -->
+    <div class="container" >
+      <div class="row">
+          <div class="col-sm-4 col-lg-2">
+            <img src="assets/images/flower-icon.png">
+          </div>  
+          <div class="col-sm-8 col-lg-4" >
+            <p>Flowers for every kind of situation</p>
+          </div>
+          <div class="col-sm-4 col-lg-2">
+            <img src="assets/images/payment-icon.png">
+          </div>
+          <div class="col-sm-8 col-lg-4">
+             <p>All major payment kinds accepted</p>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-4 col-lg-2">
+        <img src="assets/images/phone-icon.png">
+      </div>
+      <div class="col-sm-8 col-lg-4">
+        <p>Free consultation</p>
+        </div>
+        <div class="col-sm-4 col-lg-2">
+        <img src="assets/images/truck-icon.png">
+      </div>
+      <div class="col-sm-8 col-lg-4">
+        <p>City wide delivery</p>
+      </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+    <!--2nd Widgets-->
+    <script src="https://kit.fontawesome.com/949873c8bc.js" crossorigin="anonymous"></script>
+    <footer>
+<div class="container bootstrap snippets bootdey">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-facebook rounded">
+                <span class="mini-stat-icon"><i class="fa fa-facebook fg-facebook"></i></span>
+                <div class="mini-stat-info">
+                    <span>5,762</span>
+                    Facebook Like
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-twitter rounded">
+                <span class="mini-stat-icon"><i class="fa fa-twitter fg-twitter"></i></span>
+                <div class="mini-stat-info">
+                    <span>7,153</span>
+                    Twitter Followers
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-googleplus rounded">
+                <span class="mini-stat-icon"><i class="fa fa-google-plus fg-googleplus"></i></span>
+                <div class="mini-stat-info">
+                    <span>793</span>
+                    Google+ Posts
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-bitbucket rounded">
+                <span class="mini-stat-icon"><i class="fa fa-bitbucket fg-bitbucket"></i></span>
+                <div class="mini-stat-info">
+                    <span>8,932</span>
+                    Repository
+                </div>
+            </div>
+        </div>        
+	</div>
+</div>
+</footer>
 
-    <!-- Delivery Div -->
+
 
     <!--Scripts required for bootstrap CDN-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    
   </body>
 </html>

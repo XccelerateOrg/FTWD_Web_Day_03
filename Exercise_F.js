@@ -10,6 +10,12 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  let x = string.indexOf(targetChar);
+  let a = 0
+  while (x > -1){
+    string = string.replace(targetChar, "");
+    x = string.indexOf(targetChar);
+    a++
+  }
+  return a;
 }
-
-console.log(occurrence("baa", "a"));
