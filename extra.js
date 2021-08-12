@@ -10,11 +10,30 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
+  if(a>0&&b>0){
   switch (
     operator
     // CODE HERE
   ) {
+    case "+":
+        return a+b;
+      break;
+      case "-":
+        return a-b;
+        break;
+      case "*" :
+      return a*b;
+      break;
+      case "/":
+        return a/b;
+        break;
+      
+
   }
+}else
+{
+  return "The numbers should always be positive."
+}
 }
 
 console.log(calculator("+", 1, 2));

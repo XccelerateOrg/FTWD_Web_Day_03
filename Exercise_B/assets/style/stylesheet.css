@@ -1,1 +1,58 @@
 /* Your CSS code here */
+.hero {
+    background-image: url("../images/flowershop.jpg");
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+  }
+  
+  
+  .heading {
+    z-index: 5;
+    font-family: sans-serif;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .heading button {
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background: #7ed321;
+    border-radius: 22px;
+  }
+  .bottom{
+      background-color: #cee7b5;
+  }
+  P{
+      font-size: 20px;
+  }
+  .icon{
+    height: 100px;
+width: auto;
+  }
+  .email-card{
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,0);
+  }
