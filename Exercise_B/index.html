@@ -7,6 +7,12 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+    />
 
     <!-- Google Font - Lato -->
     <link
@@ -18,11 +24,32 @@
   </head>
 
   <body>
+    
     <!--Header (flower shop logo block element)-->
     <!--Banner Jumbotron of the image-->
+    <div class="topbar">
+      <img src="./assets/images/logo.png">
+  </div>
+
+  <header class='head'>
+     <h1 class='head-heading'>Beautiful Flowers</h1>
+      <form>
+        <button class="button">Learn more</button>
+      </form>
+  </header>
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
+    <div class="container">
+            <div class="col"><img src="./assets/images/flower-icon.png">Flowers for every <br> kind of situation</div>
+            <div class="col"><img src="./assets/images/payment-icon.png">All major payments <br> kinds accepted</div>    
+            <div class="col"><img src="./assets/images/phone-icon.png">Free consultation</div>    
+            <div class="col"><img src="./assets/images/truck-icon.png">City wide delivery</div>    
+
+              
+            
+
+  </div>
 
     <!-- Payments Div -->
     <!-- Consultation Div -->
@@ -30,5 +57,10 @@
     <!-- Delivery Div -->
 
     <!--Scripts required for bootstrap CDN-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

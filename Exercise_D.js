@@ -15,6 +15,26 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
-}
+  if (typeof number !=="number"){
+    return "ERROR";
+  }
+  if(number <1){
+    return "ERROR";
+  }
 
+  if(number <= 1000000){
+    return number*10;
+  }
+  else {
+    return number;
+  }
+
+  // if (number >= 1000000){
+  //   return number
+  // }
+  // else{
+  //   return number*10
+  // }
+// }
+}
 console.log(multiplyNumber(10));

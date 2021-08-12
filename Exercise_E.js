@@ -35,6 +35,17 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
-}
 
+  if (number >=100 && number <= 999999){
+    number = number.toString(); //"423"
+
+    let outputString="";
+
+    for (let i=0; i<number.length; i=i+1){
+      let digitChar = number.charAt(i)
+      outputString = outputString.concat(KEYS[digitChar]);
+    }
+    return outputString
+  }
+}
 console.log(maya(423));
