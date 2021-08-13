@@ -124,4 +124,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+(I have learned how to apply bootstrap in website)

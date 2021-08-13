@@ -1,34 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
+<head>
+  <meta charset="utf-8" />
+  <title>Flower Shop BS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+  <!-- Link and CDN required for bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Google Font - Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+</head>
 
-  <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+<body>
+  <header>
+    <img src="assets/images/logo.png" alt="Flower Shop Logo">
+  </header>
+  <!--Banner Jumbotron of the image-->
+  <section class="mainContent">
+    <h1 class="display-2 fw-bolder text-center">Beautiful Flower</h1>
+    <button type="button" class="btn btn-success rounded-pill">Learn more</button>
+  </section>
+  <!--Four containers with img / text-->
+  <section id="big-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 d-flex align-items-center">
+          <img src="./assets/images/flower-icon.png" alt="Flower">
+          <p>Flowers for every<br>kind of situation</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex align-items-center">
+          <img src="./assets/images/payment-icon.png" alt="payment">
+          <p>All major payments<br>kind accepted</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex align-items-center">
+          <img src="./assets/images/phone-icon.png" alt="phone">
+          <p>Free consultation</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex align-items-center">
+          <img src="./assets/images/truck-icon.png" alt="truck">
+          <p>City wide delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 4 containers -->
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
+  <!-- Payments Div -->
+  <!-- Consultation Div -->
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+  <!-- Delivery Div -->
 
-    <!-- Delivery Div -->
+  <!--Scripts required for bootstrap CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!--Scripts required for bootstrap CDN-->
-  </body>
 </html>

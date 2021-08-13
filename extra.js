@@ -10,11 +10,25 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
+  if (a >= 0 && b >= 0) {
   switch (
     operator
     // CODE HERE
   ) {
+    case "+" :
+      console.log(a+b)
+      break
+    case "-" :
+      console.log(a-b)
+      break
+    case "*" :
+      console.log(a*b)
+      break
+    case "/" :
+      console.log(a/b)
+      break
   }
+} return "Please input a positive number";
 }
 
 console.log(calculator("+", 1, 2));

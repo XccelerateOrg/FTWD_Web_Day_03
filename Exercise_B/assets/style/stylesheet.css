@@ -1,1 +1,41 @@
 /* Your CSS code here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  margin: 5px 10px;
+}
+
+.mainContent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../images/flowershop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.display-2 {
+  color: #fff;
+  padding-top: 40vh;
+}
+
+.btn {
+  display: block;
+  background-color: #7ad216;
+  margin: 0 auto;
+}
+
+#big-bg {
+  background-color: #cee7b4;
+}
+
+.row {
+  margin: 0 30vh;
+}
+
+.d-flex {
+  justify-content: center;
+  margin: 30px 0;
+}
