@@ -9,10 +9,10 @@
     <!-- Link and CDN required for bootstrap -->
     <link
     rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous"
-    />
+  />
 
     <!-- Google Font - Lato -->
     <link
@@ -20,41 +20,94 @@
       rel="stylesheet"
     />
     <!-- Custom Stylesheet -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
   </head>
 
   <body>
     
     <!--Header (flower shop logo block element)-->
+      <header>
+        <img src="./assets/images/logo.png">
+      </header>
+
     <!--Banner Jumbotron of the image-->
-    <div class="topbar">
-      <img src="./assets/images/logo.png">
-  </div>
+    
+    <section class="jumbotron jumbotron-fluid banner">
+      <div class="heading">
+        <h1 class="display-4">Beautiful Flowers</h1>
+        <button id="learn-more">Learn More</button>
+      </div>
+    </section>
 
-  <header class='head'>
-     <h1 class='head-heading'>Beautiful Flowers</h1>
-      <form>
-        <button class="button">Learn more</button>
-      </form>
-  </header>
-
-    <!--Four containers with img / text-->
+   <!--Four containers with img / text-->
     <!-- 4 containers -->
-    <div class="container">
-            <div class="col"><img src="./assets/images/flower-icon.png">Flowers for every <br> kind of situation</div>
-            <div class="col"><img src="./assets/images/payment-icon.png">All major payments <br> kinds accepted</div>    
-            <div class="col"><img src="./assets/images/phone-icon.png">Free consultation</div>    
-            <div class="col"><img src="./assets/images/truck-icon.png">City wide delivery</div>    
+    <section class="row no-gutters icons">
+      <!-- Flowers Div -->
+      <div class="col-xl-3 col-lg-6 col-md-6">
+        <div class="row container-fluid icon-block">
+          <div class="col-6">
+            <img src="assets/images/flower-icon.png">
+          </div>
+          <div class="col-6 icon-text">
+            <p>Flower for every kind of situation.</p>
+          </div>
+        </div>
+      </div>
 
-              
-            
+      <!-- Payments Div -->
+      <div class="col-xl-3 col-lg-6 col-md-6">
+        <div class="row container-fluid icon-block">
+          <div class="col-6">
+            <img
+              src="assets/images/payment-icon.png"
+              alt="payment icon"
+              class="img-fluid icon"
+            />
+          </div>
+          <div class="col-6 icon-text">
+            <p>All major payments kinds accepted</p>
+          </div>
+        </div>
+      </div>
 
-  </div>
+      <!-- Consultation Div -->
+      <div class="col-xl-3 col-lg-6 col-md-6">
+        <div class="row container-fluid icon-block">
+          <div class="col-6">
+            <img
+              src="assets/images/phone-icon.png"
+              alt="phone icon"
+              class="img-fluid icon"
+            />
+          </div>
+          <div class="col-6 icon-text">
+            <p>Free consultation</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
+      <!-- Delivery Div -->
+      <div class="col-xl-3 col-lg-6 col-md-6">
+        <div class="row container-fluid icon-block">
+          <div class="col-6">
+            <img
+              src="assets/images/truck-icon.png"
+              alt="truck icon"
+              class="img-fluid icon"
+            />
+          </div>
+          <div class="col-6 icon-text">
+            <p>City wide delivery</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--Scripts required for bootstrap CDN-->
     <script
@@ -62,5 +115,12 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"
+  ></script>
+
   </body>
 </html>
