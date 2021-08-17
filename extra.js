@@ -9,11 +9,20 @@
  * The calculator function should handle these operators: +, -, /, * (Addition, Subtraction, Division and Multiplication)
  * The numbers should always be positive */
 
-function calculator(operator, a, b) {
-  switch (
-    operator
+ function calculator(operator, a, b) {
+  switch (operator) {
     // CODE HERE
-  ) {
+    case "+":
+      return a + b;
+    
+      case "-":
+        return a - b;
+      
+      case "*":
+        return a * b;
+
+      case '/':
+        return a / b;     
   }
 }
 
