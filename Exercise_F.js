@@ -10,6 +10,17 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  let stringArray=string.toLowerCase().split('')
+  let charCode=targetChar.toLowerCase();
+  let count=0;
+  for(let value in stringArray)
+  {
+    if(stringArray[value]==charCode)
+    {
+      count=count+1;
+    }
+  }
+  return count;
 }
 
 console.log(occurrence("baa", "a"));

@@ -35,6 +35,15 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  if(number>=100&&number<1000000)
+  {
+  let numberArray=number.toString().split("")
+  let wordArray=[]
+  for(let word in numberArray){
+    wordArray.push(KEYS[numberArray[word]])
+  }
+  return wordArray.join("")
+}
 }
 
 console.log(maya(423));
