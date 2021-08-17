@@ -34,7 +34,11 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+	var numberstring = number.toString();
+	var word = "";
+	for (let i = 0; i < numberstring.length; i++) {
+		word += KEYS[numberstring[i]]
+	} return word;
 }
 
 console.log(maya(423));

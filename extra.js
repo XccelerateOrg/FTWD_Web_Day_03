@@ -12,8 +12,22 @@
 function calculator(operator, a, b) {
   switch (
     operator
-    // CODE HERE
   ) {
+    case "+" :
+      console.log(a+b)
+      break
+
+    case "-" :
+      console.log(a-b)
+      break
+
+    case "*" :
+      console.log(a*b)
+      break
+
+    case "/" :
+      console.log(a/b)
+      break
   }
 }
 

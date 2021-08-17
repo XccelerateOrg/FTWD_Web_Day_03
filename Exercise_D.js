@@ -14,7 +14,13 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
-}
+  if (typeof number !== 'number' || number <= 0) {
+		console.log("ERROR")
+	} else {
+			while (number < 1e+6) {
+				number *= 10;
+			} console.log(number)
+		}
+	}
 
 console.log(multiplyNumber(10));
