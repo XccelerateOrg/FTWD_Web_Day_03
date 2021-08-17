@@ -10,6 +10,18 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  
+  let count=0;
+  for(let i=0; i<string.length; i=i+1){
+    let currentChar=string.charAt(i);
+    
+
+    if (currentChar==targetChar){
+      count=count+1;
+    }
+  }
+  
+  return count;
 }
 
 console.log(occurrence("baa", "a"));
