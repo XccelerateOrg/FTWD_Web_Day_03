@@ -13,13 +13,84 @@
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+    <style>
+      .divcontainer {
+        margin: 20px auto;
+        width: 80%;
+      }
+      .pic {
+        background-image: url("./assets/images/flowershop.jpg");
+        background-size: cover;
+      }
+      .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+      }
+      .text p {
+        font-size: 60px;
+        color: white;
+      }
+      .text button {
+        color: white;
+        background-color: limegreen;
+        border-radius: 15px;
+        padding: 4px 6px;
+      }
+      .row {
+        background-color: lightgreen;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    </style>
   </head>
 
   <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+    <div class="divcontainer">
+      <img src="assets/images/logo.png" />
+      <div class="pic">
+        <div class="text">
+          <p>Beautiful Flower</p>
+          <button>Learn more</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/flower-icon.png" />
+          <p>Flowers for every kind of situation</p>
+        </div>
+        <div class="col">
+          <img src="assets/images/payment-icon.png" />
+          <p>All major payments kinds accpeted</p>
+        </div>
+        <div class="col">
+          <img src="assets/images/phone-icon.png" />
+          <p>Free consulation</p>
+        </div>
+        <div class="col">
+          <img src="assets/images/truck-icon.png" />
+          <p>City wide delivery</p>
+        </div>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
@@ -29,6 +100,22 @@
 
     <!-- Delivery Div -->
 
-    <!--Scripts required for bootstrap CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
