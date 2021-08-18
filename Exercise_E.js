@@ -32,9 +32,17 @@ var KEYS = {
   "0": "o",
   "5": "t",
 };
-
+// method 1: 
 function maya(number) {
-  // CODE HERE
+  // need to change 423 from string to number
+  var num = number.toString(); //should put outside the loop
+  //for (i in num)  //should not use, the next for statment does the same thing
+  var result = "";  // should put outside the loop
+  for (let i = 0; i < num.length; i++) {
+    //console.log(KEYS[num[i]]); for checking 
+    result += KEYS[num[i]];
+
+  } return result; //if need to ouput a number, can use Number(result), to change string into a number
 }
 
 console.log(maya(423));

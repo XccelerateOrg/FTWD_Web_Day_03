@@ -6,29 +6,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- Google Font - Lato -->
+
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
-    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+    <!-- <style>  must be in head tag
+      h1 {
+        color: red;
+      }
+    </style> -->
   </head>
+<!----------------------Header (flower shop logo block element)---------------------->
+  <body><header id="top">
+    <!-- <img id="logo" src="./assets/images/logo.png" alt="" style="float:left"> -->
+    
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="" style="float:left">  <!-- width="30" height="24" -->
+        </a>
+      </div>
+     <!-- nav bar As a link -->
+     <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Never Too Late</a>
+        <div style="float:right">
+          <button type="button" class="btn btn-outline-primary">Business</button>
+          <button type="button" class="btn btn-outline-secondary">Bouquet</button>
+          <button type="button" class="btn btn-outline-success">Wedding</button>
+          <button type="button" class="btn btn-outline-danger">Decor</button>
+          </div>
+      </div>
+      </nav>
 
-  <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+     <!--------------------- nar brand As a heading ----------------------------->
+     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Floristry</span>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+        </li> -->
+      </ul>
+      <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+<!-------------------------------- dropdown list------------------------------- -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <!-- <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+       
+        <li class="nav-item dropdown"> -->
+          <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a> -->
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Artistry</a></li>
+            <li><a class="dropdown-item" href="#">Our Story</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Their Stories</a></li>
+          </ul>
+        </li>
+       
+      </ul>
+      <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+    </nav>
+<!------------------------------------ dropdown list-------------------------------- -->
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
-
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
-
-    <!--Scripts required for bootstrap CDN-->
+<!-------------------------------Banner Jumbotron of the image----------------------->
+  <div id="background">
+    
+    <div id="shopname">Beautiful Flowers</div>
+    <button id="learnmore"> Learn More</button>
+  </div>
+<!------------------------------Four containers with img / text----------------------> 
+ <!-- 1 big div  -->
+  <div class="container-fluid" style="background-color: aquamarine; padding: 10%; ">  
+    <!-- wrong: display: flex; justify-content: center; -->
+   <!-- /wrong: use margin , should use padding -->
+     <!-- 4 containers for 4 logos -->
+     <div class="row">  <!--large screen 時令四項變一row  -->
+      <div class="col-lg-3 col-md-6 "> <!--lg3:large screen 時令四項變一row-->
+        <div class="row">
+          <div class="col-6">
+        <img src="./assets/images/flower-icon.png">
+      </div>
+      <div class="col-6">
+        <p>Flowers for every kind of situation</p>
+      </div>
+      </div>
+     </div>
+      <div class="col-lg-3 col-md-6 " >  
+        <!-- no sm-6 ，這樣才可以在mobile screen（小於md時）變1column-->
+        <div class="row">
+          <div class="col-6">
+        <img src="./assets/images/payment-icon.png">
+          </div>
+        <div class="col-6">
+         <p>All major payment kinds accepted</p> 
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-6 ">
+        <div class="row">
+        <div class="col-6">
+        <img src="./assets/images/phone-icon.png">
+        </div>
+        <div class="col-6">
+        <p>Free consultation</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 ">
+        <div class="row">
+          <div class="col-6">
+        <img src="./assets/images/truck-icon.png">
+          </div>
+          <div class="col-6">
+        <p>City wide delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
 </html>
