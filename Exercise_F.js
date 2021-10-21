@@ -10,6 +10,14 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
-}
 
+  array = string.toLowerCase().split('');
+  count = 0
+  for (i=0; i<array.length; i++){
+    if (array[i] === targetChar) {
+      count++
+    } 
+  }
+  return count
+}
 console.log(occurrence("baa", "a"));

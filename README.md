@@ -106,3 +106,6 @@ Place this link tag as well as the scripts in the correct places within your ind
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here)
+I practised using different loops (for, while, do while, switch) in different scenario, which suits different purposes and helped me to solve conditional problems.
+
+Familiarized with bootstrap to make work more efficient.
