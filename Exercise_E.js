@@ -35,6 +35,20 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+if (number>=100 && number<=999999){
+index =[]
+  for (i=0; i<6; i++) {
+    if(number.toString().charAt(i)===""){
+      break
+    }
+    index.push(number.toString().charAt(i))
+}
+word = '';
+  for (i=0; i<index.length; i++){
+    word += KEYS[index[i]]
+  }
+return word
+}
 }
 
 console.log(maya(423));
