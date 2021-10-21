@@ -7,6 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- Google Font - Lato -->
     <link
@@ -19,10 +20,86 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-expand-lg bg-light border">
+      <a class="navbar-brand" href="#">
+          <img alt="Brand" src="./assets/images/logo.png" style="height:50px">
+      </a>
+    </nav>
+      
     <!--Banner Jumbotron of the image-->
+    <div class="img-container">
+      <div class="textandbutton">
+        <h2>Beautiful Flowers</h2>
+        <button class="btn btn-success btn-lg">Learn more</button>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
+
+    <!-- <div class="container">
+      <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="./assets/images/flower-icon.png" alt="flowerlogo">
+            <h1 class="content">Flowers for every kind of situation</h1>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="./assets/images/payment-icon.png" alt="flowerlogo">
+            <h1 class="content">All major payments kinds accepted</h1> 
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="./assets/images/phone-icon.png" alt="phonelogo">
+            <h1 class="content">Free consultaion</h1>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="./assets/images/truck-icon.png" alt="phonelogo">
+            <h1 class="content">City wide delivery</h1>
+          </div>
+      </div>
+    </div> -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <!-- <div class="left"> -->
+          <div class="grouping">
+            <div class="col-lg-3 col-mg-6 d-flex justify-content-center align-items-center" class="sizing">
+              <img src="./assets/images/flower-icon.png" alt="flowerlogo" style="height:50px">
+            </div>
+            <div>
+              <h1 class="content">Flowers for every kind of situation</h1>
+            </div>
+          </div>
+
+          <div class="grouping">
+            <div class="col-lg-3 col-mg-6 d-flex justify-content-center align-items-center" class="sizing">
+              <img src="./assets/images/payment-icon.png" alt="paymentlogo" style="height:50px">
+            </div>
+            <div>
+              <h1 class="content">All major payments kinds accepted</h1>
+            </div>
+          </div>
+
+          <div class="grouping">
+            <div class="col-lg-3 col-mg-6 d-flex justify-content-center align-items-center" class="sizing">
+              <img src="./assets/images/phone-icon.png" alt="phonelogo" style="height:50px">
+            </div>
+            <div>
+              <h1 class="content">Free consultaion</h1>
+            </div>
+          </div>
+
+          <div class="grouping">
+            <div class="col-lg-3 col-mg-6 d-flex justify-content-center align-items-center" class="sizing">
+              <img src="./assets/images/truck-icon.png" alt="phonelogo" style="height:50px">
+            </div>
+            <div>
+              <h1 class="content">City wide delivery</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
 
     <!-- Payments Div -->
     <!-- Consultation Div -->
@@ -30,5 +107,8 @@
     <!-- Delivery Div -->
 
     <!--Scripts required for bootstrap CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   </body>
 </html>
