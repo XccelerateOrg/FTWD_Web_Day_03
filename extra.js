@@ -10,10 +10,22 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
+  switch (operator) {
+    case "+": a + b
+      console.log("The addition is equal to " + (a + b))
+      break;
+    case "-": a - b
+      console.log("The substraction is equal to " + (a - b))
+      break;
+    case "/": a / b
+      console.log("The division is equal to " + (a / b))
+      break;
+    case "*": a * b
+      console.log("The multiplication is equal to " + (a * b))
+      break;
+    default:
+      console.log("Invalid Operator!")
+      break;
   }
 }
 
