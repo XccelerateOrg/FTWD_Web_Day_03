@@ -12,9 +12,23 @@
 function calculator(operator, a, b) {
   switch (
     operator
-    // CODE HERE
   ) {
+    case "+":
+      c = a + b;
+      break;
+    case "-":
+      c = a - b;
+      break;
+    case "*":
+      c = a*(b);
+      break;
+    case "/":
+      c = a / b;
+      break;
+      default:
+        c = "Please enter a calculator function"
   }
+  return c
 }
 
-console.log(calculator("+", 1, 2));
+console.log(calculator("/", 0, 1));
