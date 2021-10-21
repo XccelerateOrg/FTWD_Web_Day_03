@@ -11,10 +11,31 @@
 
 function calculator(operator, a, b) {
   switch (
-    operator
-    // CODE HERE
+  operator
+  // CODE HERE
   ) {
+    case "+":
+      return console.log(a + b);
+    case "*":
+      return console.log(a * b);
+    case "-":
+      if (a >= b) {
+        return console.log(a - b);
+        break;
+      } else {
+        return console.log(b - a);
+        break;
+      }
+    case "/":
+      if (a <= b) {
+        return console.log(b / a);
+        break;
+      } else {
+        return console.log(a / b);
+        break;
+      }
   }
 }
 
-console.log(calculator("+", 1, 2));
+
+calculator("+", 1, 2);
