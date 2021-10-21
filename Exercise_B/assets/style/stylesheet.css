@@ -1,1 +1,83 @@
 /* Your CSS code here */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+}
+#bg{
+    background-image: url("/FTWD_Web_Day_03/Exercise_B/assets/images/flowershop.jpg");
+    position: relative;
+    height: 65vh;
+}
+#mask{
+    position: absolute;
+    height: 65vh;
+    background-color: black;
+    opacity: 0.6;
+}
+#slogan{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#learnMoreBtn{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+#contact{
+    background-color: lightgreen;
+    max-height:max-content;
+}
+#flower{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#flower p{
+    padding: 5vh
+}
+
+#payment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#payment p{
+    padding: 5vh
+}
+#phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#phone p{
+    padding: 5vh
+}
+#truck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#truck p{
+    padding: 5vh
+}
