@@ -9,7 +9,10 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  let counterArray = [string]
+    counterArray.filter((eachArray) => eachArray.includes(targetChar));
+    
 }
 
 console.log(occurrence("baa", "a"));
+

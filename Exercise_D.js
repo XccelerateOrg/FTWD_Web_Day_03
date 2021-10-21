@@ -14,7 +14,16 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if (number <= 0 || isNaN(number)) {
+    return "ERROR"
+  } else if (number >= 10e5) {
+    return number
+  } else {
+    do number *= 10
+    while (number < 10e5) {
+      return number
+    }    
+    }
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(3))
