@@ -82,6 +82,7 @@ Place this link tag as well as the scripts in the correct places within your ind
 - [ ] Exercise D: Multiply Number
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+  how to use bootstrap
 
 ## Bonus Exercises
 

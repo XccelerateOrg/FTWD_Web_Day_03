@@ -33,8 +33,20 @@ var KEYS = {
   "5": "t",
 };
 
+
 function maya(number) {
-  // CODE HERE
-}
+
+  let string = "";
+  let splitNumber = number.toString().split(''); //['4','2','3']
+
+   for (let i=0; i < splitNumber.length; i++) {
+     string += KEYS[splitNumber[i]] 
+   }
+  //splitNumber.map(function(eachNumber) {
+  //  string += KEYS[eachNumber]
+  //}
+  return string;
+  }
+
 
 console.log(maya(423));

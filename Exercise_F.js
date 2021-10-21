@@ -9,7 +9,14 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  let counter = 0;
+  let split = string.split("");
+  for (let i=0; i <split.length; i++){
+    if(split[i]===targetChar){
+    counter = counter +1
+  }}
+  return counter;
+
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("abc", "a"));

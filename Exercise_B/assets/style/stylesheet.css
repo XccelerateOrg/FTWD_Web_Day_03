@@ -1,1 +1,39 @@
 /* Your CSS code here */
+.bgim {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.664)),
+    url(../images/flowershop.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.secondpart {
+  background-color: rgb(196, 248, 196);
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex-wrap: wrap;
+}
+
+.row {
+  padding: 40px;
+}
+.col img {
+  height: 100px;
+  width: 100px;
+}
