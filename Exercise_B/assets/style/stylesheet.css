@@ -1,1 +1,54 @@
 /* Your CSS code here */
+* {
+    margin: 0;
+}
+
+#icon{
+    background-color: white;
+    height: 60px;
+    
+}
+
+.flower1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.753)), url(../images/flowershop.jpg);
+       
+    width:100%;
+    height: 720px;
+    
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+    
+
+    
+    
+    
+}
+.bea{
+    
+    font-size: 50px;
+    color:white;
+   
+    
+
+    
+    
+}
+.learn{
+    background-color: yellowgreen;
+    font-size: 25px;
+    padding: 7px;
+    color:white;
+    border-radius:  25px; 
+}
+.container-fluid{
+    background-color:RGB(224,246,180);
+    
+    padding:50px;
+}
