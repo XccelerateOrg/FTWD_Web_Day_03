@@ -1,1 +1,49 @@
 /* Your CSS code here */
+body {
+  background-color: #cee7b4;
+}
+
+/* Banner Jumbotron of the image */
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Exercise_B/assets/images/flowershop.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: #7ed221;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 8px 10px;
+}
+
+.cover_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+/* Four containers with img / text  */
+.fourcontainer {
+  background-color: #cee7b4;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col {
+  text-align: center;
+}
+
+.row {
+  align-items: center;
+}
+
+.row img {
+  max-width: 100px;
+  padding-right: 20px;
+}

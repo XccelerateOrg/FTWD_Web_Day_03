@@ -10,11 +10,31 @@
  * The numbers should always be positive */
 
 function calculator(operator, a, b) {
-  switch (
-    operator
-    // CODE HERE
-  ) {
-  }
-}
+  if ( a > 0 && b > 0){
+    switch (operator) {
+      case "+": //Addition
+        return a + b;
+        break;
 
-console.log(calculator("+", 1, 2));
+      case "-": //Subtraction
+        return a - b;
+        break;
+
+      case "/": //Division
+        return a / b;
+        break;
+
+      case "*": //Multiplication
+        return a * b;
+        break;  
+
+      default:
+        return "Please enter a correct operators";
+    }
+  } else return "Please enter a positive integer";
+} 
+
+console.log(calculator("*", 1, 2));
+console.log(calculator("+", 1, -2));
+console.log(calculator("m", 1, 2));
+
