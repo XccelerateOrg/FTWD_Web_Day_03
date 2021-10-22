@@ -31,10 +31,42 @@ var KEYS = {
   "8": "n",
   "0": "o",
   "5": "t",
-};
+}; 
 
-function maya(number) {
-  // CODE HERE
+function maya(number){
+  var ans = []
+  var num = number.toString()
+
+  for (i = 0 ; i < num.length ; i++) {
+    dan = (num.charAt(i)); 
+    ans.push(KEYS[dan])
+  }
+  return ans.join("")
 }
 
-console.log(maya(423));
+console.log (maya(123))
+
+
+/* 
+LOGIC HERE:
+- answer from Dan, number to string
+- create empty array for dan's answer, 1 number in each value
+- No. of loops: i=o ; i < number.length ; i++
+- num[i] can take out the corresponding key of each loop
+- to find out the value according to the property
+
+
+function maya(number){
+  
+  var dan = [] ;
+  var num = number.toString();
+  console.log (num.charAt(1));
+
+  for (i = 0 ; i < num.length ; i++) {
+    dan.push (num.charAt(1));
+    console.log (dan)
+  }
+}
+
+
+*/

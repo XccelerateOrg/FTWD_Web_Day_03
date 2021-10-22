@@ -7,6 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Google Font - Lato -->
     <link
@@ -18,17 +19,62 @@
   </head>
 
   <body>
+
+    
     <!--Header (flower shop logo block element)-->
+    <div class="navbar">
+      <img src="./assets/images/logo.png">
+    </div>
     <!--Banner Jumbotron of the image-->
+    <div class="homehero">
+      <div class="homehero-layer">
+        <div class="homehero-text">
+          <h1 class="shopname">Beautiful Flowers</h1>
+          <div class="button"><h4>Learn more</h4></div>
+        </div>
+      </div> 
+    </div>
 
     <!--Four containers with img / text-->
+    <div class="information">
     <!-- 4 containers -->
-
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-md-2 col-lg-1">
+          <img src="./assets/images/flower-icon.png" height="50px">
+        </div>
+        <div class="col-8 col-md-4 col-lg-2">
+          <p>Flowers for every kind of situation</p>
+        </div>
+      
     <!-- Payments Div -->
+
+        <div class="col-4 col-md-2 col-lg-1">
+          <img src="./assets/images/payment-icon.png" height="50px">
+        </div>
+        <div class="col-8 col-md-4 col-lg-2">
+          <p>All major payments kinds accepted</p>
+        </div>
+
     <!-- Consultation Div -->
+        <div class="col-4 col-md-2 col-lg-1">
+          <img src="./assets/images/phone-icon.png" height="50px">
+        </div>
+        <div class="col-8 col-md-4 col-lg-2">
+          <p>Free consultation</p>
+        </div>
+
 
     <!-- Delivery Div -->
-
+    <div class="col-4 col-md-2 col-lg-1">
+      <img src="./assets/images/truck-icon.png" height="50px">
+    </div>
+    <div class="col-8 col-md-4 col-lg-2">
+      <p>City wide delivery</p>
+    </div>
+  </div>
+</div>
+</div>
     <!--Scripts required for bootstrap CDN-->
   </body>
 </html>
