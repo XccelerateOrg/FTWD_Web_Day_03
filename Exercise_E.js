@@ -35,6 +35,16 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  let splitNumber = number.toString().split("") //"423" => ["4", "2", "3"];
+  let string = ""
+  
+  for(let i = 0; i <= string.length; i++) {
+    string += KEYS[splitNumber[i]]
+
+  } return string;
+  
 }
 
+
 console.log(maya(423));
+
