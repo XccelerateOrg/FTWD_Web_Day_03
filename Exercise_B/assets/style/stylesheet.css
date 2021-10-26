@@ -33,5 +33,16 @@
 
 .container1{
     background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-inline: 50%;
 }
+
+
 
