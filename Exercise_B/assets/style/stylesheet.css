@@ -1,1 +1,48 @@
-/* Your CSS code here */
+
+.main{
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/flowershop.jpg);
+}
+
+.headings{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+
+}
+
+.btn{
+    position: absolute;
+    
+    color: white;
+    top: 70%;
+    left: 45%;
+    padding: 13px 25px;
+    border-radius: 60px;
+    background-color: yellowgreen;
+    font-size: 1.5rem;
+}
+
+.container1{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-inline: 50%;
+}
+
+
+
