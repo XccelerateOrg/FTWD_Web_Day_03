@@ -1,1 +1,37 @@
 /* Your CSS code here */
+.jumbotron{
+    display:flex;
+    align-items:center;
+    background-image: url("../images/flowershop.jpg");
+    background-size:cover;
+    color:white;
+    height:60vh;
+}
+
+.btn.btn-primary {
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    text-shadow: none;
+    background-color: rgb(125, 219, 31);
+    width: 10%;
+    justify-content: center;
+    
+  }
+
+.container2{
+    padding-top: 50px;
+    background:#CEE7B4;
+}
+
+.col{
+    display:flex;
+    justify-content: space-evenly;
+
+
+} 
+
+.titles {
+    display: flex;
+    justify-content: center;
+}
