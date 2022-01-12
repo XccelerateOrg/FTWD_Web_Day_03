@@ -105,4 +105,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+Given the intensity of the daily workload, trying to write the "perfect" code is a fool's errand; I should be satisfied with the fact that I have made some efforts within the time constrain. Though writing webpages is a far-from-stimulating experience, I will try to enjoy the process and make the best out of it (perhaps a side gig helping people write websites or selling HTML email templates). Yes, I am aware of the fact that I have made no mention of today's contents (including Bootstrap). I think I need to take some time to internalise the contents, and hopefully there will be more bootstrap-related exercises to force myself to learn and practise the skills. 
