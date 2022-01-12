@@ -12,9 +12,24 @@
  * to get a number that is greater than or equal to 1000000 and return that number. 
  * Consider which loop you will need to use to do this.
 Use a combination of conditionals and loops to create your answer for this question. */
-
+let b_num = 1000000;
 function multiplyNumber(number) {
-  // CODE HERE
+  let count = 0;
+  if (number < 0) {
+    return "error";
+  } else if (number === 0) {
+    return "error";
+  } else if (typeof number === "string") {
+    return "error";
+  } else if (number > b_num) {
+    return number;
+  } else {
+    while (number < b_num) {
+      number = number * 10;
+      count++;
+      // console.log(number);
+    }
+    return "iterations it took: " + count;
+  }
 }
-
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(456));

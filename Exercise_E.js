@@ -21,20 +21,24 @@ The output should be always a string with one word, all lowercase.
 Maya won’t forget to thank you at the end of her article :)*/
 
 var KEYS = {
-  "6": "a",
-  "1": "b",
-  "7": "d",
-  "4": "e",
-  "3": "i",
-  "2": "l",
-  "9": "m",
-  "8": "n",
-  "0": "o",
-  "5": "t",
+  6: "a",
+  1: "b",
+  7: "d",
+  4: "e",
+  3: "i",
+  2: "l",
+  9: "m",
+  8: "n",
+  0: "o",
+  5: "t",
 };
-
+let words = "";
 function maya(number) {
-  // CODE HERE
+  let n_string = number.toString();
+  let code = n_string.split("");
+  for (let i = 0; i < code.length; i++) {
+    words = words + KEYS[code[i]];
+  }
 }
 
 console.log(maya(423));
