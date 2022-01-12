@@ -35,7 +35,16 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
-  
+  newnum = number.toString();
+  answer="";
+  for (let i=0; i<newnum.length; i++){
+    for (let key in KEYS){
+      if (key===newnum[i]){
+        answer+=KEYS[key]
+      }
+    }
+  }
+  return answer
 }
 
 console.log(maya(423));
