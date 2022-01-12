@@ -66,7 +66,7 @@ Place this link tag as well as the scripts in the correct places within your ind
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-  
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
 ```
@@ -105,4 +105,9 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+There are a couple of things I took away from the Javascript challenges:
+
+- Do not forget to put the While-loop code in curly brackets
+- Use your `console.log()` often; it can be of great help
+
+The Bootstrap was definitely more challenging. I need to be careful when setting up the grid. Using the parent class 'row-col-sm-4' for example was not allowing me to put all the elements on a horizontal line. I had to remove the extra child elements and put the text in the same child elements as the image in order for the responsiveness to work. This meant using the specific column width col-3 etc for the child elements. Curious to learn how to properly use the row-col-md-4 classes in the future.
