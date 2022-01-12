@@ -15,6 +15,22 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
+  if (isNaN(number)){
+    return "ERROR"
+  }
+else if (number <= 0){
+      return "ERROR"
+    }
+  else if (number >=1000000){
+return number
 }
 
-console.log(multiplyNumber(10));
+let c = 0;      
+while (number <=1000000){
+number = (number*10);
+c++}
+return c;
+}
+
+
+console.log(multiplyNumber(0));
