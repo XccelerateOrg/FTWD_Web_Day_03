@@ -15,6 +15,18 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
+  let initialNumber = number;
+  if (number <= 0 || typeof number != 'number') {
+    return 'ERROR';
+  } else if (number >= 1_000_000) {
+    return number;
+  }
+
+  while (initialNumber < 1_000_000) {
+    initialNumber *= 10;
+  }
+
+  return initialNumber;
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(12));
