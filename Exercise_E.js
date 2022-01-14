@@ -20,7 +20,7 @@ The output should be always a string with one word, all lowercase.
 
 Maya won’t forget to thank you at the end of her article :)*/
 
-var KEYS = {
+var keys = {
   "6": "a",
   "1": "b",
   "7": "d",
@@ -34,7 +34,13 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  let string = number.toString(); // "423"
+  let result = "";
+  for (let i=0; i < string.length; i++) {
+    result = result + keys[string[i]]
+  }
+  return result;
 }
 
 console.log(maya(423));
+
