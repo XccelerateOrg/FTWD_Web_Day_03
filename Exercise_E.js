@@ -39,6 +39,7 @@ function maya(number) {
   for (let i = 0; i < code.length; i++) {
     words = words + KEYS[code[i]];
   }
+  return words;
 }
 
 console.log(maya(423));
