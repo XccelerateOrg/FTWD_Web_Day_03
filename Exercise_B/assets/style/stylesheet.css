@@ -19,7 +19,7 @@ header img {
 }
 
 .hero {
-  background-image: url("/Exercise_B/assets/images/flowershop.jpg");
+  background-image: url("/assets/images/flowershop.jpg");
   height: 70vh;
   position: relative;
   display: flex;
