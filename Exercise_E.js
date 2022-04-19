@@ -34,7 +34,17 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number < 100 || number > 999999) {
+    throw new Error("Invalid Number!");
+  }
+
+  var numberString = number.toString();
+  var result = "";
+
+  for (var numberChar of numberString) {
+    result += KEYS[numberChar];
+  }
+  return result;
 }
 
 console.log(maya(423));
