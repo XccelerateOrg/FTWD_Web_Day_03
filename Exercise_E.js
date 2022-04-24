@@ -35,6 +35,13 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
-}
+  let word = ""
+  for(let i of number.toString()){
+      letter = KEYS[i]
+      console.log(letter)
+      word += letter
+  }
+  return word
+  }
 
-console.log(maya(423));
+console.log(maya(980));
