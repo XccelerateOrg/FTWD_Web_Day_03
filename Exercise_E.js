@@ -33,8 +33,40 @@ var KEYS = {
   "5": "t",
 };
 
+
+/////////////////////////////////////
+
+// Method 1 //
 function maya(number) {
   // CODE HERE
+  var result = [];
+  var length = number.toString().length;
+
+  for (let i = 0; i < length; i++) {
+    
+    result.unshift(KEYS[number % 10]);
+    number = Math.floor(number / 10);
+
+  }
+  return (result);
 }
 
 console.log(maya(423));
+
+// Method 2 //
+function maya2(number) {
+  // CODE HERE
+  var result = [];
+  var tmp = number.toString();
+  var length = number.toString().length;
+  
+  for(let i =0; i<length ;i++){
+      result.push(KEYS[tmp[i]]); //e.g. "423" -> find Key[4] -> find the key 4
+  }
+  
+  return(result);
+
+
+}
+
+console.log(maya2(423));
