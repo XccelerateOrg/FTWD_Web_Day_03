@@ -7,7 +7,12 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!-- Google Font - Lato -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -19,16 +24,73 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <div class="header">
+      <img src="../Exercise_B/assets/images/logo.png" alt="" />
+    </div>
+
     <!--Banner Jumbotron of the image-->
+    <div class="first-image">
+      <img
+        src="../Exercise_B/assets/images/flowershop.jpg"
+        class="banner"
+        alt=""
+      />
+      <div class="d-flex justify-content-center align-items-center">
+        <h1 class="display-4 title text-white">Beautiful Flowers</h1>
+        <button type="button" class="btn btn-learn text-white">
+          Learn more
+        </button>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
-    <!-- 4 containers -->
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
-
-    <!-- Delivery Div -->
+    <div class="footer d-flex justify-content-around">
+      <div class="container-info container-fluid d-flex justify-content-between">
+        <!-- Products Div -->
+        <div class="products gd-flex">
+          <img
+            src="./assets/images/flower-icon.png"
+            alt=""
+            class="flower-icon icon"
+          />
+          Flowers for every kind of solution
+        </div>
+        <!-- Payments Div -->
+        <div class="payment grid-row col-lg-3 col-sm-12 col-md-6">
+          <img
+            src="./assets/images/payment-icon.png"
+            alt=""
+            class="payment-icon icon"
+          />
+          <p>All major payments kinds accepted</p>
+        </div>
+        <!-- Consultation Div -->
+        <div class="consultation grid-row col-lg-3 col-sm-12 col-md-6">
+          <img
+            src="./assets/images/phone-icon.png"
+            alt=""
+            class="Consultation-icon icon"
+          />
+          <p>Free consulation</p>
+        </div>
+        <!-- Delivery Div -->
+        <div class="delivery grid-row col-lg-3 col-sm-12 col-md-6">
+          <img
+            src="./assets/images/truck-icon.png"
+            alt=""
+            class="delivery-icon icon"
+          />
+          <p>City wide delivery</p>
+        </div>
+      </div>
+    </div>
 
     <!--Scripts required for bootstrap CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

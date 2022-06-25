@@ -34,7 +34,16 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number < 100 || number > 999999) {
+    return "Invalid Number!";
+  }
+
+  var result = [];
+  while (number >= 1) {
+    result.unshift(KEYS[number % 10]);
+    number = Math.trunc((number/10));
+  }
+  return result;
 }
 
 console.log(maya(423));
