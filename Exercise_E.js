@@ -34,7 +34,15 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number <100 || number > 999999){
+    return ("Enter a number between 100 and 999999!")
+  }
+  var total ="";
+  var getString = number.toString(); /* return as a string */
+  for ( let i = 0; i < getString.length;i++){
+    total = total + KEYS[getString[i]];
+  }
+  return total;
 }
 
-console.log(maya(423));
+console.log(maya(61743));
