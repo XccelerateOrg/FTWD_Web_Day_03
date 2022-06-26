@@ -11,10 +11,22 @@
 
 function calculator(operator, a, b) {
   switch (
-    operator
-    // CODE HERE
-  ) {
+    operator) {
+      case "+":
+        return a+b;
+
+      case "-":
+        return a-b;
+      
+      case "*":
+        return a*b;
+      
+      case "/":
+        return a/b;
+
+      default:
+        return ("Incorrect Operator: " + operator + "!");
   }
 }
 
-console.log(calculator("+", 1, 2));
+console.log(calculator(".", 1, 2));
