@@ -1,1 +1,62 @@
 /* Your CSS code here */
+.logo1{
+    background-image: url(/Exercise_B/assets/images/logo.png);
+    height: 50px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.backgroundFlower{
+    background-image:url(/Exercise_B/assets/images/flowershop.jpg)
+}
+
+.learnMorebtn {
+    position:relative;
+    top: 50px;
+}
+
+.image1 {
+    background-image:url(/Exercise_B/assets/images/flower-icon.png);
+    height:50px;
+    width:50px;
+    background-size: cover;
+}
+
+.image2 {
+    background-image:url(/Exercise_B/assets/images/payment-icon.png);
+    height:50px;
+    width:50px;
+    background-size: cover;
+}
+
+.image3 {
+    background-image:url(/Exercise_B/assets/images/phone-icon.png);
+    height:50px;
+    width:50px;
+    background-size: cover;
+}
+
+.image4 {
+    background-image:url(/Exercise_B/assets/images/truck-icon.png);
+    height:50px;
+    width:50px;
+    background-size: cover;
+}
+
+.image{
+    display:inline-block;
+}
+
+.description{
+    display:inline-block;
+    position:relative;
+    margin-left: 70px;
+    width:200px;
+   
+}
+.description.bottomText{
+    margin-top:10px;
+}
+
