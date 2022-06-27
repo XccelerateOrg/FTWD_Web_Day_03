@@ -13,8 +13,18 @@
  * Consider which loop you will need to use to do this.
 Use a combination of conditionals and loops to create your answer for this question. */
 
-function multiplyNumber(number) {
-  // CODE HERE
-}
+  function multiplyNumber(num) {
+    if(num <= 0 || num == "") {
+        return "ERROR" 
+    }
+    else if(num >= 1000000){
+        return num 
+    }
+    while (num <= 1000000) {
+        num= num*10
+    }
+    return num 
 
-console.log(multiplyNumber(10));
+  }
+
+console.log(multiplyNumber(10))
