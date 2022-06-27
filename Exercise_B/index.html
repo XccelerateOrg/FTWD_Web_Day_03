@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
+<head>
+  <meta charset="utf-8" />
+  <title>Flower Shop BS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Google Font - Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+</head>
 
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+<body>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/Exercise_B/assets/images/logo.png" alt="" width="" height="" class="d-inline-block align-text-top">
+      </a>
+    </div>
+  </nav>
+  <!--Banner Jumbotron of the image-->
+  <div class="jumbotron">
+    <img class="flower-img" src="/Exercise_B/assets/images/flowershop.jpg" alt="">
+    <div class="flower-text">
+      <p>Beautiful Flowers</p>
+      <button class="learn-button">
+        Learn more
+      </button>
+    </div>
 
-  <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
+  </div>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+  <!--Four containers with img / text-->
+  <!-- 4 containers -->
+  <div class="four-icons ">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 icon">
+        <img src="/Exercise_B/assets/images/flower-icon.png">
+        <p class="flower">Flowers for every<br>kind of situation</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 icon">
+        <img src="/Exercise_B/assets/images/payment-icon.png">
+        <p>All major payments<br> kinds accepted</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 icon">
+        <img src="/Exercise_B/assets/images/phone-icon.png">
+        <p>Free consultation</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 icon">
+        <img src="/Exercise_B/assets/images/truck-icon.png">
+        <p>City wide delivery</p>
+      </div>
+    </div>
+  </div>
 
-    <!-- Delivery Div -->
 
-    <!--Scripts required for bootstrap CDN-->
-  </body>
+  <!-- Payments Div -->
+  <!-- Consultation Div -->
+
+  <!-- Delivery Div -->
+
+  <!--Scripts required for bootstrap CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/usm/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVesmAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
