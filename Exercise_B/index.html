@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
+<head>
+  <meta charset="utf-8" />
+  <title>Flower Shop BS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+  <!-- Link and CDN required for bootstrap -->
 
-  <body>
-    <!--Header (flower shop logo block element)-->
-    <!--Banner Jumbotron of the image-->
+  <!-- Google Font - Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./stylesheet.css" />
+</head>
 
-    <!--Four containers with img / text-->
-    <!-- 4 containers -->
+<body>
+  <header>
+    <nav class="primary-navbar">
+      <a href="" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+    </nav>
+  </header>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+  <main class="main-body">
+    <section>
+      <div class="grid container main-container">
+        <h1 class="main-title">Beautiful Flowers</h1>
+        <button class="learn-more-btn">Learn More</button>
+      </div>
+    </section>
 
-    <!-- Delivery Div -->
+    <section class="grid service-container">
+      <div class="service-block flex">
+        <img class="icons" src="./assets/images/flower-icon.png" alt="">
+        <span>Flowers for every kind of situation</span>
+      </div>
+      <div class="service-block flex">
+        <img class="icons" src="./assets/images/payment-icon.png" alt="">
+        <span>All major payments kinds accepted</span>
+      </div>
+      <div class="service-block flex">
+        <img class="icons" src="./assets/images/phone-icon.png" alt="">
+        <span>Free consultation</span>
+      </div>
+      <div class="service-block flex">
+        <img class="icons" src="./assets/images/truck-icon.png" alt="">
+        <span>Flowers for every kind of situation</span>
+      </div>
+    </section>
+  </main>
+</body>
 
-    <!--Scripts required for bootstrap CDN-->
-  </body>
 </html>
