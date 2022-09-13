@@ -14,7 +14,15 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if (number >= 1000000) {
+    console.log("ERROR!");
+  } else if (number <= 0 || typeof number !== "number") {
+    console.log(number);
+  } else {
+    while (number < 1000000) {
+      number *= 10;
+    }
+  }
+  console.log(number);
 }
-
-console.log(multiplyNumber(10));
+console.log(multiplyNumber(29));
