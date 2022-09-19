@@ -34,7 +34,17 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  var string_number = number.toString();
+  var result = "";
+
+  if (number >= 100 && number <= 999999) {
+    for (let i = 0; i < string_number.length; i++) {
+      result = result + KEYS[string_number.charAt(i)];
+    }
+    return result;
+  } else {
+    return string_number;
+  }
 }
 
-console.log(maya(423));
+console.log(maya(99));
