@@ -14,6 +14,18 @@ function calculator(operator, a, b) {
     operator
     // CODE HERE
   ) {
+    case "+":
+      return (a + b);
+      break;
+      case "-":
+        return (a-b);
+        break;
+        case "/":
+          return (a/b);
+          break;
+          case "*":
+            return (a*b);
+            break;
   }
 }
 
