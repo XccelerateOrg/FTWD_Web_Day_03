@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Flower Shop BS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Link and CDN required for bootstrap -->
+<head>
+  <meta charset="utf-8" />
+  <title>Flower Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
-    <!-- Google Font - Lato -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="./assets/style/stylesheet.css" />
-  </head>
+  <!-- Link and CDN required for bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- Google Font - Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/style/stylesheet.css" />
+</head>
 
-  <body>
+<body>
     <!--Header (flower shop logo block element)-->
+    <nav>
+     <img src="./assets/images/logo.png">
+     </nav>
+   
     <!--Banner Jumbotron of the image-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="banner-image">
+        <span class="centered text_centered">Beautiful Flower</span>
+        <div class="button_centered">Learn more</div>
+      </div>
+    </div>
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
+    <div class="row icons">
+      <div class="col-lg-3 col-md-6 col-sm-12 icon-text"><img src="./assets/images/flower-icon.png"><p>Flowers for every kind of situation</p>
+      </div>
+      <!-- Payments Div -->
+      <div class="col-lg-3 col-md-6 col-sm-12 icon-text"><img src="./assets/images/payment-icon.png"><p>All major payments kinds accepted</p></div>
+      <!-- Consultation Div -->
+      <div class="col-lg-3 col-md-6 col-sm-12 icon-text"><img src="./assets/images/phone-icon.png"><p>Free consulation</p></div>
+      <!-- Delivery Div -->
+      <div class="col-lg-3 col-md-6 col-sm-12 icon-text"><img src="./assets/images/truck-icon.png"><p>City wide delivery</p></div>
+    </div>
 
-    <!-- Payments Div -->
-    <!-- Consultation Div -->
+  
 
-    <!-- Delivery Div -->
 
-    <!--Scripts required for bootstrap CDN-->
-  </body>
+  </div>
+
+
+
+
+  <!--Scripts required for bootstrap CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
