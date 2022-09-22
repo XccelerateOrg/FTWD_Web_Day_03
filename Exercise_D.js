@@ -13,8 +13,32 @@
  * Consider which loop you will need to use to do this.
 Use a combination of conditionals and loops to create your answer for this question. */
 
-function multiplyNumber(number) {
-  // CODE HERE
-}
+// function multiplyNumber(number) {
+//   // CODE HERE
+//   if (number <= 0 || typeof number !== "number") {
+//     return number;
+//   } else if (number >= 1000000) {
+//     return "ERROR"
+//   } else {
+//     while (number >= 1000000) {
+//       number *= 10;
+//     }
+//   }
+// }
 
-console.log(multiplyNumber(10));
+// console.log(multiplyNumber(10));
+
+function multiplyNumber(number) {
+  if (number >= 1000000) {
+    return "ERROR"
+  } else if (number <= 0 || typeof number !== "number") {
+    return number;
+  } else {
+    while (number < 1000000) {
+      number *= 10;
+    }
+  }
+  return number
+}
+console.log(multiplyNumber(100000));
+
