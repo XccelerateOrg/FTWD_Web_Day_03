@@ -9,7 +9,7 @@ body {
 }
 
 .banner-image {
-    background: url("../images/flowershop.jpg");
+    background: url("..//images/flowershop.jpg");
     background-size: cover;
     background-blend-mode: overlay;
     background-color: #444;
