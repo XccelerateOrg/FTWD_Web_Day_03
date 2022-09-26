@@ -14,7 +14,16 @@
 Use a combination of conditionals and loops to create your answer for this question. */
 
 function multiplyNumber(number) {
-  // CODE HERE
+  if (typeof number !== "number" || number <= 0) {
+    return ("ERROR");
+  } else if (number >= 1000000) {
+    return number;
+  } else {
+    while (number < 1000000) {
+      number *= 10;
+    }
+  }
+  return number;
 }
 
 console.log(multiplyNumber(10));

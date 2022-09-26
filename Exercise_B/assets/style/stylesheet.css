@@ -1,1 +1,62 @@
 /* Your CSS code here */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato ", sans-serif;
+}
+
+.banner-image {
+    background: url("..//images/flowershop.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #444;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.text_centered {
+    font-size: 35px;
+}
+
+.button_centered, .text_centered { 
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.button_centered {
+    background-color: #7ed321;
+    padding: 6px 14px 6px 14px;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 5vh
+}
+
+.icons {
+    background-color: rgb(181, 228, 180);
+    height: 100vh;
+}
+
+.icon-text {
+    display: flex;
+}
+
+.icon-text > p {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    padding: 10px;
+}
+
+.icon-text > img {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
