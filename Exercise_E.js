@@ -34,7 +34,22 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  let letters = number.toString();
+
+  if (number >= 100 && number <= 999999) {
+    index = []
+    for (i = 0; i < 6; i++) {
+      if (letters.charAt(i) == "") {
+        break
+      }
+      index.push(letters.charAt(i))
+    }
+    word = '';
+    for (i = 0; i < index.length; i++) {
+      word += KEYS[index[i]]
+    }
+    return word
+  }
 }
 
 console.log(maya(423));

@@ -1,1 +1,60 @@
-/* Your CSS code here */
+/* Main Content Page */
+
+.banner {
+    background-color: black;
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #ffff;
+}
+
+
+.banner img {
+    opacity: 30%;
+}
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    color: antiquewhite;
+}
+
+
+/* button */
+
+.btn {
+    color: #ffff;
+    font-size: 20px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background: #548c17;
+    border-radius: 22px;
+}
+
+.btn:hover {
+    background-color: rgba(87, 128, 87, 0.662);
+}
+
+/* Menu */
+
+footer {
+    background-color: #cee7b5;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.col img {
+    height: 5rem;
+    padding-right: 5%;
+}
+
+.col p {
+    width: 50%;
+    padding-right: 30%;
+    float: right;
+
+}
