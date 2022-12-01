@@ -1,1 +1,23 @@
 /* Your CSS code here */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/flowershop.jpg);
+    background-repeat: unset;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+.btnLearnMore{
+    background-color: #31d300;
+    color: white;
+    font-size: 16px;
+    padding: 12px 28px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.feature{
+    background-color: #c8e9af;
+}
