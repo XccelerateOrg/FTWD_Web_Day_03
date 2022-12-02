@@ -1,1 +1,80 @@
 /* Your CSS code here */
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: lato, sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+}
+
+nav .container {
+    margin-left: 1vw;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0
+}
+
+nav img {
+    padding-top: 1vh;
+    position: relative;
+    max-height: 8vh;
+}
+
+section {
+    height: 50vh;
+    background-image: url(/FTWD_Web_Day_03/Exercise_B/assets/images/flowershop.jpg);
+    background-size: cover;
+}
+
+#jumbotron {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#jumbotron button {
+    padding: 1vh 1vh;
+    border-radius: 300px;
+    background-color: #7ed321;
+    border: transparent;
+    color: white;
+    margin: 3vh auto 0 auto;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #cfe7b5;
+}
+
+.row {
+    height: 40vh;
+}
+
+footer p {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    footer img {
+        width: 10vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 1199px) {
+    footer p {
+        inline-size: auto;
+        overflow-wrap: unset;
+    }
+}

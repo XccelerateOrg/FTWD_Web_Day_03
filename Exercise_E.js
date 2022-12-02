@@ -35,6 +35,17 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  if (number < 100 || number > 999999 || isNaN(number)) {
+    return "Provide a number between 100 and 999999"
+  }
+  else {
+  word = ""
+    for (let i = 0; i < String(number).length; i++) {
+        word = word.concat(KEYS[String(number)[i]])
+        }
+  }
+  return word
 }
+
 
 console.log(maya(423));

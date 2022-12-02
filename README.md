@@ -106,3 +106,5 @@ Place this link tag as well as the scripts in the correct places within your ind
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here)
+
+PUT WIDTH ON WHEREEVER I NEED TO DO VERTICAL ALIGN
