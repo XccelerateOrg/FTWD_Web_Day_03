@@ -36,16 +36,15 @@ var KEYS = {
 function maya(number) {
   // CODE HERE
   let ans = "";
-  let newNumber = number.toString();
+  let newNumber = num.toString(number);
   for (let i = 0; i < newNumber.length; i++) {
-    for (let j = 0; j < Object.keys(KEYS).length; j++) {
-      if(newNumber[i] === Object.getOwnPropertyNames(KEYS)[j]){
-        ans += (Object.getOwnPropertyDescriptors(KEYS)[j].value);
+    for (let j = 0; j < KEYS.length; j++) {
+      if(newNumber(i) === Object.getOwnPropertyNames(KEYS)[j]){
+        ans.push(Object.getOwnPropertyNames(KEYS)[j]);
       }
+      return `thank you +${ans}`; 
     }
   }
-  return `${ans} thank you`; 
 }
 
-// maya(423);
 console.log(maya(423));
