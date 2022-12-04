@@ -1,1 +1,40 @@
 /* Your CSS code here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-image{
+    position: relative;
+    }
+.mask{
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.531);
+    position: absolute;
+    flex-direction:column;
+    /* display: flex!important;
+    align-items: bottom!important;
+    justify-items:center!important; */
+}
+p.text{
+   position: relative;
+  top:20px;
+    
+}
+/*button.btn{
+    position: relative;
+   top:100px;
+     
+ } */
+
+
+
+
+
+
+
+
+

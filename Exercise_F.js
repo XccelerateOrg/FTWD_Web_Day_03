@@ -10,6 +10,11 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  newString = string.toLowerCase()
+  newTargetChar = targetChar.toLowerCase()
+  let tempChar =  newString.split(newTargetChar)
+  tempChar = tempChar.length-1
+  return targetChar+" : "+tempChar+" times";
 }
 
 console.log(occurrence("baa", "a"));
