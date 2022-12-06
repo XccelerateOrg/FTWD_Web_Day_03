@@ -1,1 +1,69 @@
 /* Your CSS code here */
+.container {
+
+display: flex
+
+}
+
+
+.Beautiful {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    
+.Learn {
+     border-radius: 30%; 
+     background-color: aquamarine;
+    font-size: large ;
+    }
+
+.d-flex {
+
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+
+.flex-container {
+
+        display: flex;
+        flex-flow: row wrap;
+        /* flex-wrap: wrap; */
+     
+        /* justify-content: space-around; */
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none; 
+
+        
+        }
+
+ .flex-item {
+            background:#b9cf88;
+            padding: 5px;
+            width: 300px;
+            height: 40px;
+            /* margin-top: 10px; */
+            /* line-height: 150px; */
+            color: black;
+            /* font-weight: bold; */
+            font-size: 1em;
+            text-align: left;
+          }
+
+
+
+
+div:not([class]) {
+    outline: 2px solid black;
+    padding: 0.5em;
+
+}
