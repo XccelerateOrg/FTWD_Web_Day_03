@@ -35,6 +35,7 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  
 }
 
 console.log(maya(423));

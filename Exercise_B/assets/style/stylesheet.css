@@ -1,1 +1,37 @@
 /* Your CSS code here */
+.flowerLogo{
+    display: block;
+}
+
+.flowerShop{
+    filter: brightness(60%);
+    height: 650px;
+    width: 100%;
+}
+
+p {
+    display: inline;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+}
+
+.row{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.flower{
+    float: left;
+    display: flex;
+}
+
+.payment, .consultation, .delivery{
+    float: left;
+    display: flex;   
+}
+
+
+
