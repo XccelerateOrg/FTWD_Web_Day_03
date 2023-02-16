@@ -105,4 +105,4 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here)
+(Got to test out bootstrap, especially when it comes to grid resizing and all. Again not immediately intuitive but slowly got the hang of it during programming.)
