@@ -15,6 +15,12 @@ Use a combination of conditionals and loops to create your answer for this quest
 
 function multiplyNumber(number) {
   // CODE HERE
+  if (number <= 0 || isNaN(number)) {
+    return 'Error';
+  }
+  if (number >= 1000000) {
+    return number;
+  }
 }
 
-console.log(multiplyNumber(10));
+console.log(multiplyNumber('ddcdsc'));
