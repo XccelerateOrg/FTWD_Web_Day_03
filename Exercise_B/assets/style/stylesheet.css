@@ -24,7 +24,25 @@
     text-align: center;
     font-size: 1.563rem; /* 25 px */
     border-radius: 1.25rem; /* 20 px */
-    padding: 6px;
+    padding: 0.375rem;
     position: relative;
-    margin: auto 39.375rem;
+    margin: 1rem 36rem;
+    width: 13%;
+    height: 10%;
+}
+
+.flower-icon {
+    padding: 2.5rem;
+}
+
+.phone-icon {
+    padding: 2.5rem;
+}
+
+.payment-icon {
+    padding: 2.5rem;
+}
+
+.truck-icon {
+    padding: 2.5rem;
 }
