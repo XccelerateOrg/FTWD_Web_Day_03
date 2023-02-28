@@ -1,1 +1,48 @@
 /* Your CSS code here */
+.hero {
+    background-image: url("../images/flowershop.jpg");
+    background-color:grey;
+    color:white;
+    font-family: system-ui;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 12.5rem; /* 200px */
+    padding-bottom: 12.5rem; /* 200px */
+    /* background-repeat: no-repeat; */
+}
+
+.text_1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.simple_button {
+    color:white;
+    background-color:rgb(121, 252, 119); 
+    border-color:rgb(121, 252, 119);
+    font-family: system-ui;
+    text-align: center;
+    font-size: 1.563rem; /* 25 px */
+    border-radius: 1.25rem; /* 20 px */
+    padding: 0.375rem;
+    position: relative;
+    margin: 1rem 36rem;
+    width: 13%;
+    height: 10%;
+}
+
+.flower-icon {
+    padding: 2.5rem;
+}
+
+.phone-icon {
+    padding: 2.5rem;
+}
+
+.payment-icon {
+    padding: 2.5rem;
+}
+
+.truck-icon {
+    padding: 2.5rem;
+}
