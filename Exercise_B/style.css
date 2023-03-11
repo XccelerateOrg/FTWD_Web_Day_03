@@ -1,0 +1,60 @@
+#banner {
+  height: 100vh;
+}
+
+#banner::before {
+  content: '';
+  background: url('./assets/images/flowershop.jpg') center center/cover;
+  position: absolute;
+  top: 86px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+#banner .banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+#banner .banner-container .inner-content {
+  color: #fff;
+}
+#banner .banner-container .inner-content h1 {
+  font-size: 80px;
+}
+
+#banner .banner-container .inner-content button {
+  border: none;
+  color: #fff;
+  background-color: greenyellow;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+/*  */
+#service-grid {
+  background-color: greenyellow;
+  padding-top: 50px;
+}
+
+#service-grid .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: auto;
+}
+
+#service-grid .container .service-items {
+  display: flex;
+  justify-items: center;
+  gap: 0px;
+  padding: 10px;
+  height: 100%;
+}
