@@ -11,9 +11,23 @@
 
 function calculator(operator, a, b) {
   switch (
-    operator
-    // CODE HERE
+  operator
+  // CODE HERE
   ) {
+    case "+":
+      return a + b;
+      break;
+    case "-":
+      return a - b;
+      break;
+    case "/":
+      return a / b;
+      break;
+    case "*":
+      return a * b;
+      break;
+    default:
+      return
   }
 }
 

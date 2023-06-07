@@ -9,7 +9,7 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  return [...string.toLowerCase().split('')].filter(l => l === targetChar)
 }
 
 console.log(occurrence("baa", "a"));
