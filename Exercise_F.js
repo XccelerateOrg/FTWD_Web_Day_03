@@ -10,6 +10,15 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  let count = 0;
+  let lowercaseString = string.toLowerCase();
+  let lowercaseTarget = targetChar.toLowerCase();
+  for (i = 0; i < string.length; i++) {
+    if (lowercaseString.charAt(i) === lowercaseTarget) {
+      count += 1;
+    }
+  }
+  return count;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("baa", "A"));

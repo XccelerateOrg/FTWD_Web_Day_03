@@ -7,6 +7,7 @@
     <!--If you want to use bootstrap properly this is vital (helps browser to measure the page and readjust the information accordingly-->
 
     <!-- Link and CDN required for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- Google Font - Lato -->
     <link
@@ -19,7 +20,21 @@
 
   <body>
     <!--Header (flower shop logo block element)-->
+    <nav class="navbar navbar-expand-md bg-white">
+      <div class="container-fluid d-flex align-items-center">
+        <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.png" alt="flowershop logo"></a>
+      </div>
+    </nav>
+
+
     <!--Banner Jumbotron of the image-->
+    <div class="container background d-flex flex-column justify-content-center align-items-center">
+      <h2 class="text-white">Beautiful Flowers</h2>
+      <span class="text-white bg-success rounded-pill fs-5 px-2 py-1">Learn More</span>
+
+    </div>
+
+
 
     <!--Four containers with img / text-->
     <!-- 4 containers -->
@@ -29,6 +44,34 @@
 
     <!-- Delivery Div -->
 
+
+    <div class="light-background mt-2 pb-5">
+      <div class="container">
+        <div class="row mb-3 pt-5">
+          <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-wrap justify-content-center align-items-center my-2">
+            <img src="./assets/images/flower-icon.png" alt="flower icon">
+            <span class="w-50"> Flowers for every kind of situation</span>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-wrap justify-content-center align-items-center my-2">
+            <img src="./assets/images/payment-icon.png" alt="payment icon">
+            <span class="w-50">All major payment kinds accepted</span>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-wrap justify-content-center align-items-center my-2">
+            <img src="./assets/images/phone-icon.png" alt="phone icon">
+            <span class="w-50">Free Consultation</span>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-wrap justify-content-center align-items-center my-2">
+            <img src="./assets/images/truck-icon.png" alt="truck icon">
+            <span class="w-50">City Wide Delivery</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
     <!--Scripts required for bootstrap CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
   </body>
 </html>
