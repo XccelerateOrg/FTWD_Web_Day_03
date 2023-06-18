@@ -35,6 +35,18 @@ var KEYS = {
 
 function maya(number) {
   // CODE HERE
+  let letter = "";
+  const numberArray = Array.from(String(number));
+  const stringArray = [];
+  for (i = 0; i < numberArray.length; i++) {
+    for (let num in KEYS) {
+      if (numberArray[i] === num) {
+        stringArray.push(Object.values(KEYS[num]))
+      }
+    }
+  }
+  const secretWord = stringArray.join("");
+  return secretWord;
 }
 
 console.log(maya(423));
