@@ -10,6 +10,13 @@
 
 function occurrence(string, targetChar) {
   // CODE HERE
+  var flag = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] == targetChar) {
+      flag = flag + 1;
+    }
+  }
+  return flag;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence('banana', 'a'));
