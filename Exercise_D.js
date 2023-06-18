@@ -17,4 +17,3 @@ function multiplyNumber(number) {
   // CODE HERE
 }
 
-console.log(multiplyNumber(10));
