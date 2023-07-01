@@ -33,8 +33,21 @@ var KEYS = {
   "5": "t",
 };
 
+
+
 function maya(number) {
-  // CODE HERE
+ //code Here//
+  
+ let changedNumber = number.toString(); //number is changed to string here so that loop can be used//
+ let finalWord = '';
+ for(i = 0; i< changedNumber.length; i++){
+      let requiredKey = changedNumber[i];
+     
+    finalWord = finalWord + KEYS[requiredKey]; 
+ }
+ return finalWord
 }
 
 console.log(maya(423));
+
+
