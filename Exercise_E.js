@@ -21,20 +21,34 @@ The output should be always a string with one word, all lowercase.
 Maya won’t forget to thank you at the end of her article :)*/
 
 var KEYS = {
-  "6": "a",
-  "1": "b",
-  "7": "d",
-  "4": "e",
-  "3": "i",
-  "2": "l",
-  "9": "m",
-  "8": "n",
-  "0": "o",
-  "5": "t",
+  6: "a",
+  1: "b",
+  7: "d",
+  4: "e",
+  3: "i",
+  2: "l",
+  9: "m",
+  8: "n",
+  0: "o",
+  5: "t",
 };
 
 function maya(number) {
-  // CODE HERE
+  if (number >= 100 && number <= 999999) {
+    //split number into digits
+    const digitsArray = String(number).split("").map(Number);
+
+    //loop over each digit and associate with a word += to the other
+    let word = "";
+    for (let i = 0; i < digitsArray.length; i++) {
+      const digit = digitsArray[i];
+      const letter = KEYS[digit];
+      word += letter;
+    }
+    return word.toLowerCase();
+  } else {
+    return console.log(`Invalid Number!`);
+  }
 }
 
 console.log(maya(423));
