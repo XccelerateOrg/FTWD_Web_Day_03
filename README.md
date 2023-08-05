@@ -107,5 +107,5 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 (Fill whatever you would like here)
 
-how to use switch statement properly.
-bootstrap.
+how to use switch statement properly,
+bootstrap columns to adapt to screen.

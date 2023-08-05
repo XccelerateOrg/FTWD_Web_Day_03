@@ -15,101 +15,21 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* HEADER */
-
-header {
-  height: 6rem;
+.custom-color {
+  background-color: #76b517;
 }
-
-.logo {
-  padding: 1rem;
+.custom-color-light {
+  background-color: #bbe281;
 }
 
 /* INTRO */
 
-.section-intro {
-  height: 65vh;
-  width: 100vw;
-
-  background-image: url(/Exercise_B/assets/images/flowershop.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+.section-banner {
+  background-image: url("/Exercise_B/assets/images/flowershop.jpg");
   position: relative;
 }
 
-.section-intro::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.7);
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.396);
+  height: 70vh;
 }
-
-.intro-content {
-  z-index: 1;
-  text-align: center;
-}
-
-.intro-content h1 {
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 1rem;
-}
-
-.intro-content button {
-  border: none;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  background-color: #8acf23;
-  color: #fff;
-  cursor: pointer;
-}
-
-/* SERVICES */
-.section-services {
-  background-color: #acd175;
-  padding: 4rem;
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
-/* .service-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 3rem;
-} */
-
-/* @media only screen and (max-width: 600px) {
-  .service-container {
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 3rem;
-  }
-} */
-
-.service {
-  /* display: flex; */
-  align-items: center;
-  /* margin-left: 3rem; */
-  text-align: center;
-}
-
-.service img {
-  height: 4rem;
-  margin-right: 0.3rem;
-}
-
-/* .service p {
-  width: 9rem;
-} */

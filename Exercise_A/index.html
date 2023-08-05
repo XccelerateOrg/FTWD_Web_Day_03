@@ -18,8 +18,8 @@
   <body>
     <!-- CODE HERE -->
 
-    <header>
-      <div class="container">
+    <main>
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="d-flex align-items-center justify-content-center">
             <a href="#" class="navbar-brand col-sm">
@@ -42,23 +42,27 @@
             </ul>
           </div>
         </nav>
+
+        <section>
+          <ul class="list-group">
+            <li class="list-group-item py-3">Item I</li>
+            <li class="list-group-item py-3">Item II</li>
+            <li class="list-group-item py-3">Item III</li>
+            <li class="list-group-item py-3">Item IV</li>
+            <li class="list-group-item py-3">Item V</li>
+          </ul>
+        </section>
       </div>
+
       <section>
-        <ul class="list-group">
-          <li class="list-group-item py-3">Item I</li>
-          <li class="list-group-item py-3">Item II</li>
-          <li class="list-group-item py-3">Item III</li>
-          <li class="list-group-item py-3">Item IV</li>
-          <li class="list-group-item py-3">Item V</li>
-        </ul>
-        <div class="row">
-          <button class="col-sm btn btn-primary me-1">Primary</button>
+        <div class="row container-sm">
+          <button class="col col-sm btn btn-primary me-1">Primary</button>
           <button class="col-sm btn btn-secondary me-1">Secondary</button>
           <button class="col-sm btn btn-success me-1">Success</button>
           <button class="col-sm btn btn-danger me-1">Danger</button>
         </div>
       </section>
-    </header>
+    </main>
 
     <!-- BOOTSTAP SCRIPT -->
     <script
