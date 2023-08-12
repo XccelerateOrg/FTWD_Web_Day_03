@@ -1,1 +1,68 @@
 /* Your CSS code here */
+.hero{
+    background-image:url('../images/flowershop.jpg');
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.hero__content{
+    align-self: center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__content h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.hero__content button{
+    background-color: greenyellow;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+.details{
+    background-color: rgb(171, 236, 171);
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    gap: 1rem;
+}
+
+.details__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    font-size: x-large;
+    
+}
+
+@media screen and (max-width :1172px) {
+    .details{
+        display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: max-content max-content;
+    padding: 5% 10%;
+    gap: 10%;
+    }
+}
+
+@media screen and (max-width :768px) {
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

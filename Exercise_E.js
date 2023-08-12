@@ -34,7 +34,11 @@ var KEYS = {
 };
 
 function maya(number) {
-  // CODE HERE
+  Arr = JSON.stringify(number).split('')
+  Arr.map((item) =>{
+    console.log(KEYS[item])
+  })
+
 }
 
-console.log(maya(423));
+console.log(maya(343636));

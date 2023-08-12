@@ -9,7 +9,8 @@
  * The count is case insensitive. */
 
 function occurrence(string, targetChar) {
-  // CODE HERE
+  Arr = string.split("")
+  return Arr.filter((elm) => elm == targetChar).length;
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence("baa", "b"));
