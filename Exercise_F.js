@@ -8,8 +8,19 @@
  * The function will count the number of times that character appears in the string.
  * The count is case insensitive. */
 
+let count = 0
 function occurrence(string, targetChar) {
-  // CODE HERE
+	let array = Array.from(string)
+	array.map((n) => {
+		if (n === targetChar || n.toUpperCase() === targetChar) {
+			delete array.indexOf(targetChar)
+			count += 1
+		} else {
+			return
+		}
+	})
+
+	return count
 }
 
-console.log(occurrence("baa", "a"));
+console.log(occurrence('baa', 'a'))
